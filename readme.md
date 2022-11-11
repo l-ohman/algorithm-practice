@@ -1,22 +1,23 @@
 ## Algo practice
 
-Repo to practice solving algos and writing tests
+Repo to practice solving algos and writing tests.
 
-These problems are a mix from various algo-practice sites, such as Leetcode, Codewars, etc
+These problems are a mix from various algo-practice sites, such as Leetcode, Codewars, etc.
 
 ### Progress
 
-| Difficulty  | Failed | Solved | Total |
-| ----------- | ------ | ------ | ------------- |
-| Easy        | 0      | 5      | 5             |
-| Medium      | 0      | 0      | 0             |
-| Hard        | 0      | 0      | 0             |
-| Very hard   | 0      | 0      | 0             |
+| Difficulty  | Attempted | Solved |
+| ----------- | --------- | ------ |
+| Easy        | 6         | 6      |
+| Medium      | 0         | 0      |
+| Hard        | 0         | 0      |
+| Very hard   | 0         | 0      |
 
-| Problem type | Failed | Solved | Total |
-| ------------ | ------ | ------ | ----- |
-| Arrays       | 0      | 2      | 2     |
-| Binary trees | 0      | 2      | 2     |
-| Linked lists | 0      | 1      | 1     |
+| Type         | Attempted | Solved |
+| ------------ | --------- | ------ |
+| Binary trees | 2         | 2      |
+| Linked lists | 1         | 1      |
+| Graphs       | 1         | 1      |
+| Arrays       | 2         | 2      |
 
-_*Note: "Failed" means I had to view a solution to write my own, whereas "Solved" means I was able to pass all tests without any external assistance._
+_"Attempted" represents every problem I have attempted; "Solved" means I was able to pass all tests without any external assistance._
