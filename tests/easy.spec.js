@@ -1,10 +1,11 @@
 const { expect } = require("chai");
-const { BinaryTree } = require("../utils");
+const { BinaryTree, SinglyLinkedList } = require("../utils");
 const {
   twoNumberSum,
   isValidSubsequence,
   branchSums,
-  closestBstValue
+  closestBstValue,
+  removeLinkedListDups,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -98,11 +99,11 @@ xdescribe("Branch Sums", () => {
   });
 });
 
-describe("Find Closest BST Value", () => {
+xdescribe("Find Closest BST Value", () => {
   let binaryTree;
   before(() => {
     let nodes = [10, 5, 15, 2, 5, 13, 22, 1, 14];
-    nodes = nodes.map(int => new BinaryTree(int));
+    nodes = nodes.map((int) => new BinaryTree(int));
 
     nodes[3].left = nodes[7];
     nodes[1].left = nodes[3];
@@ -110,7 +111,7 @@ describe("Find Closest BST Value", () => {
     nodes[2].left = nodes[5];
     nodes[2].right = nodes[6];
     nodes[5].right = nodes[8];
-    
+
     nodes[0].left = nodes[1];
     nodes[0].right = nodes[2];
     binaryTree = nodes[0];
@@ -122,5 +123,42 @@ describe("Find Closest BST Value", () => {
 
   it("Returns the closest integer", () => {
     expect(closestBstValue(binaryTree, 12)).to.equal(13);
+  });
+});
+
+describe("Remove Duplicates From Singly Linked List", () => {
+  let linkedListHead;
+  before(() => {
+    let nodes = [1, 1, 3, 4, 4, 4, 5, 6, 6];
+    nodes = nodes.map((int) => new SinglyLinkedList(int));
+    for (let i = 0; i < nodes.length - 1; i++) {
+      nodes[i].next = nodes[i + 1];
+    }
+    linkedListHead = removeLinkedListDups(nodes[0]);
+  });
+
+  it("The list does not contain duplicates", () => {
+    let currentNode = linkedListHead;
+    const list = [currentNode];
+    while (currentNode.next) {
+      list.push(currentNode.next);
+      currentNode = currentNode.next;
+    }
+
+    for (let i = 0; i < list.length - 1; i++) {
+      for (let j = i + 1; j < list.length; j++) {
+        // console.log(`Comparing i (${i}: ${list[i].value}) to j (${j}: ${list[j].value})`);
+        expect(list[i].value).to.not.equal(list[j].value);
+      }
+    }
+  });
+
+  it("The list maintains its order", () => {
+    let currentNode = linkedListHead;
+
+    while (currentNode.next) {
+      expect(currentNode.value).to.be.lessThan(currentNode.next.value);
+      currentNode = currentNode.next;
+    }
   });
 });

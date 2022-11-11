@@ -10,4 +10,20 @@ function binaryTreeLogger(root) {
   // TODO - might be useful later
 }
 
-module.exports = { BinaryTree, binaryTreeLogger };
+class SinglyLinkedList {
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
+}
+
+function linkedListLogger(head) {
+  // TODO
+}
+
+module.exports = {
+  BinaryTree,
+  binaryTreeLogger,
+  SinglyLinkedList,
+  linkedListLogger,
+};

@@ -17,3 +17,4 @@ These problems are a mix from various algo-practice sites, such as Leetcode, Cod
 | ------------ | -- | -- | -- |
 | Arrays       | 0  | 2  | 2  |
 | Binary trees | 0  | 2  | 2  |
+| Linked lists | 0  | 1  | 1  |
