@@ -5,14 +5,6 @@
 // branch sum - sum of all values in a single binary tree branch
 // ordered from leftmost sum to rightmost sum
 
-class BinaryTree {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
-}
-
 function branchSums(root) {
   if (!root.left && !root.right) return [root.value];
 
@@ -32,4 +24,4 @@ function branchSums(root) {
   return(sums);
 }
 
-module.exports = { branchSums, BinaryTree };
+module.exports = branchSums;

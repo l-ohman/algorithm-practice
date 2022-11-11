@@ -1,10 +1,11 @@
 const twoNumberSum = require("./twoNumberSum");
 const isValidSubsequence = require("./validateSubsequence");
-const { branchSums, BinaryTree } = require("./branchSums");
+const branchSums = require("./branchSums");
+const closestBstValue = require("./closestBstValue");
 
 module.exports = {
   twoNumberSum,
   isValidSubsequence,
   branchSums,
-  BinaryTree
+  closestBstValue
 };
