@@ -1,5 +1,11 @@
 const { expect } = require("chai");
-const { twoNumberSum, isValidSubsequence } = require("../easy");
+const { binaryTreeLogger } = require("./utils");
+const {
+  twoNumberSum,
+  isValidSubsequence,
+  branchSums,
+  BinaryTree,
+} = require("../easy");
 
 xdescribe("Two Number Sum", () => {
   it("Returns an array of two numbers when they add up to the target sum", () => {
@@ -25,7 +31,7 @@ xdescribe("Two Number Sum", () => {
   });
 });
 
-describe("Validate Subsequence", () => {
+xdescribe("Validate Subsequence", () => {
   it("Returns true when the subsequence is valid", () => {
     let array = [5, 1, 22, 25, 6, -1, 8, 10];
     let sequence = [1, 6, -1, 10];
@@ -56,5 +62,38 @@ describe("Validate Subsequence", () => {
     let array = [1, 4, 7, 9, 15];
     let sequence = [1, 7, 7, 15];
     expect(isValidSubsequence(array, sequence)).to.equal(false);
+  });
+});
+
+describe("Branch Sums", () => {
+  let binaryTree;
+
+  before(() => {
+    // constructing a basic BST to test
+    const nodes = [];
+    for (let i = 0; i < 10; i++) {
+      nodes.push(new BinaryTree(i + 1));
+    }
+    // left side
+    nodes[3].left = nodes[7];
+    nodes[3].right = nodes[8];
+    nodes[4].left = nodes[9];
+    nodes[1].left = nodes[3];
+    nodes[1].right = nodes[4];
+    // right side
+    nodes[2].left = nodes[5];
+    nodes[2].right = nodes[6];
+    // root node
+    nodes[0].left = nodes[1];
+    nodes[0].right = nodes[2];
+    binaryTree = nodes[0];
+  });
+
+  it("Output contains the correct number of sums", () => {
+    expect(branchSums(binaryTree).length).to.equal(5);
+  });
+
+  it("Returns the correct sums", () => {
+    expect(branchSums(binaryTree)).to.eql([15, 16, 18, 10, 11]);
   });
 });
