@@ -6,7 +6,8 @@ const {
   branchSums,
   closestBstValue,
   removeLinkedListDups,
-  GraphNode
+  GraphNode,
+  palindromeCheck
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -164,7 +165,7 @@ xdescribe("Remove Duplicates From Singly Linked List", () => {
   });
 });
 
-describe("Graph Depth-First Search", () => {
+xdescribe("Graph Depth-First Search", () => {
   let graph;
   before(() => {
     // might try to restructure this into one nested array ...
@@ -199,5 +200,18 @@ describe("Graph Depth-First Search", () => {
     expect(arr).to.eql([
       "A", "B", "E", "F", "I", "J", "C", "D", "G", "K", "H"
     ]);
+  });
+});
+
+describe("Palindrome Check", () => {
+  it("Returns the correct boolean", () => {
+    expect(palindromeCheck("racecar")).to.equal(true); // odd
+    expect(palindromeCheck("noon")).to.equal(true); // even
+    expect(palindromeCheck("cat")).to.equal(false); // odd
+    expect(palindromeCheck("palindrome")).to.equal(false); // even
+  });
+
+  it("Handles single-character strings", () => {
+    expect(palindromeCheck("x")).to.equal(true);
   });
 });
