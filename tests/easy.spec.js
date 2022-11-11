@@ -1,10 +1,10 @@
 const { expect } = require("chai");
-const { binaryTreeLogger } = require("./utils");
+const { BinaryTree } = require("../utils");
 const {
   twoNumberSum,
   isValidSubsequence,
   branchSums,
-  BinaryTree,
+  closestBstValue
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -65,7 +65,7 @@ xdescribe("Validate Subsequence", () => {
   });
 });
 
-describe("Branch Sums", () => {
+xdescribe("Branch Sums", () => {
   let binaryTree;
 
   before(() => {
@@ -95,5 +95,32 @@ describe("Branch Sums", () => {
 
   it("Returns the correct sums", () => {
     expect(branchSums(binaryTree)).to.eql([15, 16, 18, 10, 11]);
+  });
+});
+
+describe("Find Closest BST Value", () => {
+  let binaryTree;
+  before(() => {
+    let nodes = [10, 5, 15, 2, 5, 13, 22, 1, 14];
+    nodes = nodes.map(int => new BinaryTree(int));
+
+    nodes[3].left = nodes[7];
+    nodes[1].left = nodes[3];
+    nodes[1].right = nodes[4];
+    nodes[2].left = nodes[5];
+    nodes[2].right = nodes[6];
+    nodes[5].right = nodes[8];
+    
+    nodes[0].left = nodes[1];
+    nodes[0].right = nodes[2];
+    binaryTree = nodes[0];
+  });
+
+  it("Returns a single integer", () => {
+    expect(closestBstValue(binaryTree, 12)).to.be.a("number");
+  });
+
+  it("Returns the closest integer", () => {
+    expect(closestBstValue(binaryTree, 12)).to.equal(13);
   });
 });
