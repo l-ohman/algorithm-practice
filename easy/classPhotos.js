@@ -6,25 +6,25 @@
 // output: boolean of whether or not picture can be taken
 // can assume each class has >=2 students
 
-// works, but seems like a lot of unnecessary code...
-function classPhotosFirstAttempt(redShirts, blueShirts) {
-  let frontRow = redShirts.sort((a, b) => a - b);
-  let backRow = blueShirts.sort((a, b) => a - b);
+// this works, but seems like a lot of unnecessary code...
+// function classPhotosFirstAttempt(redShirts, blueShirts) {
+//   let frontRow = redShirts.sort((a, b) => a - b);
+//   let backRow = blueShirts.sort((a, b) => a - b);
 
-  if (redShirts[0] > blueShirts[0]) {
-    frontRow = blueShirts;
-    backRow = redShirts;
-  } else if (redShirts[0] === blueShirts[0]) {
-    return false;
-  }
+//   if (redShirts[0] > blueShirts[0]) {
+//     frontRow = blueShirts;
+//     backRow = redShirts;
+//   } else if (redShirts[0] === blueShirts[0]) {
+//     return false;
+//   }
 
-  for (let i = 0; i < frontRow.length; i++) {
-    if (frontRow[i] >= backRow[i]) {
-      return false;
-    }
-  }
-  return true;
-}
+//   for (let i = 0; i < frontRow.length; i++) {
+//     if (frontRow[i] >= backRow[i]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
 
 function classPhotos(redShirts, blueShirts) {
   redShirts.sort((a, b) => a - b);

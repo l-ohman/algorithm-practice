@@ -53,7 +53,8 @@ xdescribe("Task Assignment", () => {
 
 // learning experience: it seems like bad practice to have tests depend on eachother
 // like this — i cannot run a single test by itself because they share a linked list.
-describe("Linked List Construction", () => {
+// (also, these were not expansive enough to cover edge cases. but good practice regardless.)
+xdescribe("Linked List Construction", () => {
   // example list: [1, 2, 3, 4, 5]
   // standalone nodes on the side: [3, 3, 6]
   let linkedList;

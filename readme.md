@@ -6,13 +6,13 @@ These problems are a mix from various algorithm-practice sites, such as AlgoExpe
 
 ## Progress
 
-<!-- "Attempted" represents every problem I have tried to solve; "Solved" means I was able to pass all tests without any external assistance or research. -->
-<!-- There is a "+" on 'Hard' because some sites have a 'Very Hard' category -->
+<!-- "Attempted" represents every problem I have tried to solve; "Solved" means I was able to pass all tests without any external assistance or research -->
+<!-- 'Hard' includes the 'Very Hard' problems that some sites have -->
 | Difficulty  | Attempted | Solved   |
 | ----------- | --------- | -------- |
 | Easy        | 9         | 9 (100%) |
 | Medium      | 2         | 2 (100%) |
-| Hard+       | 0         | 0        |
+| Hard        | 0         | 0        |
 
 <!-- Sorted by 'Attempted', then 'Solved', then 'Type' -->
 | Type         | Attempted | Solved   |

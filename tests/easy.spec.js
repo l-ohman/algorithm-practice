@@ -228,7 +228,7 @@ xdescribe("Minimum Wait Time", () => {
   });
 });
 
-describe("Class Photos", () => {
+xdescribe("Class Photos", () => {
   it("Returns a boolean", () => {
     expect(classPhotos([1, 5], [2, 10])).to.be.a("boolean");
   });
