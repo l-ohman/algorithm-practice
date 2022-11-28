@@ -5,6 +5,7 @@ const closestBstValue = require("./closestBstValue");
 const removeLinkedListDups = require("./removeLinkedListDups");
 const GraphNode = require("./graphDFS");
 const palindromeCheck = require("./palindromeCheck");
+const minimumWaitTime = require("./minimumWaitTime");
 
 module.exports = {
   twoNumberSum,
@@ -13,5 +14,6 @@ module.exports = {
   closestBstValue,
   removeLinkedListDups,
   GraphNode,
-  palindromeCheck
+  palindromeCheck,
+  minimumWaitTime,
 };

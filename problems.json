@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Two Number Sum",
+    "difficulty": "easy",
+    "type": "Array",
+    "solved": true
+  },
+  {
+    "title": "Validate Subsequence",
+    "difficulty": "easy",
+    "type": "Array",
+    "solved": true
+  },
+  {
+    "title": "Branch Sums",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "solved": true
+  },
+  {
+    "title": "Closest Value in BST",
+    "difficulty": "easy",
+    "type": "Binary Search Tree",
+    "solved": true
+  },
+  {
+    "title": "Remove Duplicates From Linked List",
+    "difficulty": "easy",
+    "type": "Linked List",
+    "solved": true
+  },
+  {
+    "title": "Graph Depth-First Search",
+    "difficulty": "easy",
+    "type": "Graph",
+    "solved": true
+  },
+  {
+    "title": "Palindrome Check",
+    "difficulty": "easy",
+    "type": "String",
+    "solved": true
+  },
+  {
+    "title": "Minimum Wait Time",
+    "difficulty": "easy",
+    "type": "Greedy",
+    "solved": true
+  },
+  {
+    "title": "",
+    "difficulty": "",
+    "type": "",
+    "solved": false
+  }
+]
