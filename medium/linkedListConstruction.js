@@ -16,35 +16,105 @@ class DoublyLinkedList {
   }
 
   setHead(node) {
-    // Write your code here.
+    this.remove(node);
+    node.next = this.head;
+    this.head && (this.head.prev = node);
+    this.head = node;
+    if (!this.head.next) {
+      this.tail = node;
+    }
   }
 
   setTail(node) {
-    // Write your code here.
+    this.remove(node);
+    node.prev = this.tail;
+    this.tail && (this.tail.next = node);
+    this.tail = node;
+    if (!this.tail.prev) {
+      this.head = node;
+    }
   }
 
   insertBefore(node, nodeToInsert) {
-    // Write your code here.
+    this.remove(nodeToInsert);
+    nodeToInsert.prev = node.prev;
+    nodeToInsert.next = node;
+    node.prev && (node.prev.next = nodeToInsert);
+    node.prev = nodeToInsert;
+
+    if (nodeToInsert.prev === null) {
+      this.head = nodeToInsert;
+    }
   }
 
   insertAfter(node, nodeToInsert) {
-    // Write your code here.
+    this.remove(nodeToInsert);
+    nodeToInsert.prev = node;
+    nodeToInsert.next = node.next;
+    node.next && (node.next.prev = nodeToInsert);
+    node.next = nodeToInsert;
+
+    if (nodeToInsert.next === null) {
+      this.tail = nodeToInsert;
+    }
   }
 
+  // note: position of 'head' node is 1
   insertAtPosition(position, nodeToInsert) {
-    // Write your code here.
+    if (!this.head && position === 1) {
+      this.setHead(nodeToInsert);
+    } else {
+      let selectedNode = this.head;
+      while (position > 1) {
+        selectedNode = selectedNode.next;
+        position -= 1;
+      }
+      this.insertBefore(selectedNode, nodeToInsert);
+    }
   }
 
   removeNodesWithValue(value) {
-    // Write your code here.
+    // handles the case of a linked list with 1 item that matches the value
+    if (!this.head.next && this.head.value === value) {
+      this.remove(this.head);
+    }
+
+    let selectedNode = this.head;
+    while (selectedNode) {
+      const currentNode = selectedNode;
+      selectedNode = currentNode.next;
+      if (currentNode.value === value) {
+        this.remove(currentNode);
+      }
+    }
   }
 
+  // designing 'remove()' to be used internally like this might be a bad idea...
+  // seems that some actions are being repeated multiple times just to reduce # of lines of code.
+  // (but i will do it anyway, because i am curious if it can work.)
   remove(node) {
-    // Write your code here.
+    if (this.tail === node) {
+      this.tail = node.prev;
+    }
+    if (this.head === node) {
+      this.head = node.next;
+    }
+
+    node.prev && (node.prev.next = node.next);
+    node.next && (node.next.prev = node.prev);
+    node.prev = null;
+    node.next = null;
   }
 
   containsNodeWithValue(value) {
-    // Write your code here.
+    let currentNode = this.head;
+    while (currentNode) {
+      if (currentNode.value === value) {
+        return true;
+      }
+      currentNode = currentNode.next;
+    }
+    return false;
   }
 }
 

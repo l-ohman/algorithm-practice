@@ -11,7 +11,7 @@ These problems are a mix from various algorithm-practice sites, such as AlgoExpe
 | Difficulty  | Attempted | Solved   |
 | ----------- | --------- | -------- |
 | Easy        | 9         | 9 (100%) |
-| Medium      | 1         | 1 (100%) |
+| Medium      | 2         | 2 (100%) |
 | Hard+       | 0         | 0        |
 
 <!-- Sorted by 'Attempted', then 'Solved', then 'Type' -->
@@ -20,6 +20,8 @@ These problems are a mix from various algorithm-practice sites, such as AlgoExpe
 | Greedy       | 3         | 3 (100%) |
 | Array        | 2         | 2 (100%) |
 | Binary tree  | 2         | 2 (100%) |
+| Linked list  | 2         | 2 (100%) |
 | Graph        | 1         | 1 (100%) |
-| Linked list  | 1         | 1 (100%) |
 | String       | 1         | 1 (100%) |
+
+<!-- todo: add specific commands for testing difficulties -->
