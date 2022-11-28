@@ -6,10 +6,11 @@ class BinaryTree {
   }
 }
 
-function binaryTreeLogger(root) {
-  // TODO - might be useful later
-}
+// function binaryTreeLogger(root) {
+//   // TODO - might be useful later
+// }
 
+// Node in singly linked list
 class SinglyLinkedList {
   constructor(value) {
     this.value = value;
@@ -17,13 +18,27 @@ class SinglyLinkedList {
   }
 }
 
-function linkedListLogger(head) {
-  // TODO
+// Node in doubly linked list
+class DoublyLinkedListNode {
+  constructor(value) {
+    this.value = value;
+    this.prev = null;
+    this.next = null;
+  }
 }
+
+// function linkedListLogger(head) {
+//   // TODO
+// }
+
+// function isValidLinkedList(head) {
+//   // TODO
+// }
 
 module.exports = {
   BinaryTree,
-  binaryTreeLogger,
+  // binaryTreeLogger,
   SinglyLinkedList,
-  linkedListLogger,
+  DoublyLinkedListNode,
+  // linkedListLogger,
 };
