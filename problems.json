@@ -3,60 +3,77 @@
     "title": "Two Number Sum",
     "difficulty": "easy",
     "type": "Array",
-    "solved": true
+    "solved": true,
+    "date": "08-11-22"
   },
   {
     "title": "Validate Subsequence",
     "difficulty": "easy",
     "type": "Array",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Branch Sums",
     "difficulty": "easy",
     "type": "Binary Tree",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Closest Value in BST",
     "difficulty": "easy",
     "type": "Binary Search Tree",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Remove Duplicates From Linked List",
     "difficulty": "easy",
     "type": "Linked List",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Graph Depth-First Search",
     "difficulty": "easy",
     "type": "Graph",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Palindrome Check",
     "difficulty": "easy",
     "type": "String",
-    "solved": true
+    "solved": true,
+    "date": "11-11-22"
   },
   {
     "title": "Minimum Wait Time",
     "difficulty": "easy",
     "type": "Greedy",
-    "solved": true
+    "solved": true,
+    "date": "28-11-22"
   },
   {
     "title": "Class Photos",
     "difficulty": "easy",
     "type": "Greedy",
-    "solved": true
+    "solved": true,
+    "date": "28-11-22"
+  },
+  {
+    "title": "Task Assignment",
+    "difficulty": "medium",
+    "type": "Greedy",
+    "solved": true,
+    "date": "28-11-22"
   },
   {
     "title": "",
     "difficulty": "",
     "type": "",
-    "solved": false
+    "solved": false,
+    "date": "dd-MM-yy"
   }
 ]
