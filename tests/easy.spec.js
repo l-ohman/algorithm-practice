@@ -9,6 +9,7 @@ const {
   GraphNode,
   palindromeCheck,
   minimumWaitTime,
+  classPhotos,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -215,7 +216,7 @@ xdescribe("Palindrome Check", () => {
   });
 });
 
-describe("Minimum Wait Time", () => {
+xdescribe("Minimum Wait Time", () => {
   it("Returns an integer", () => {
     expect(minimumWaitTime([1, 2, 3])).to.be.a("number");
     expect(minimumWaitTime([5])).to.be.a("number");
@@ -224,5 +225,15 @@ describe("Minimum Wait Time", () => {
   it("Returns the correct value", () => {
     expect(minimumWaitTime([3, 2, 1, 2, 6])).to.equal(17);
     expect(minimumWaitTime([17, 4, 3])).to.equal(10);
+  });
+});
+
+describe("Class Photos", () => {
+  it("Returns a boolean", () => {
+    expect(classPhotos([1, 5], [2, 10])).to.be.a("boolean");
+  });
+
+  it("Returns the correct value", () => {
+    expect(classPhotos([5, 8, 1, 3, 4], [6, 9, 2, 4, 5])).to.equal(true);
   });
 });

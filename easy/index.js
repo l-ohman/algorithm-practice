@@ -6,6 +6,7 @@ const removeLinkedListDups = require("./removeLinkedListDups");
 const GraphNode = require("./graphDFS");
 const palindromeCheck = require("./palindromeCheck");
 const minimumWaitTime = require("./minimumWaitTime");
+const classPhotos = require("./classPhotos");
 
 module.exports = {
   twoNumberSum,
@@ -16,4 +17,5 @@ module.exports = {
   GraphNode,
   palindromeCheck,
   minimumWaitTime,
+  classPhotos,
 };

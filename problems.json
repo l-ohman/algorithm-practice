@@ -48,6 +48,12 @@
     "solved": true
   },
   {
+    "title": "Class Photos",
+    "difficulty": "easy",
+    "type": "Greedy",
+    "solved": true
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
