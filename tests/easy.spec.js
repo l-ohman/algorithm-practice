@@ -10,6 +10,7 @@ const {
   palindromeCheck,
   minimumWaitTime,
   classPhotos,
+  tandemBicycle,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -235,5 +236,24 @@ xdescribe("Class Photos", () => {
 
   it("Returns the correct value", () => {
     expect(classPhotos([5, 8, 1, 3, 4], [6, 9, 2, 4, 5])).to.equal(true);
+  });
+});
+
+describe("Tandem Bicycle", () => {
+  it("Returns an integer", () => {
+    expect(tandemBicycle([1, 2], [3, 4], true)).to.be.a("number");
+    expect(tandemBicycle([8], [9], false)).to.be.a("number");
+  })
+
+  it("Returns the correct value when 'fastest' is true", () => {
+    const redShirts = [5, 5, 3, 9, 2];
+    const blueShirts = [3, 6, 7, 2, 1];
+    expect(tandemBicycle(redShirts, blueShirts, true)).to.equal(32);
+  });
+
+  it("Returns the correct value when 'fastest' is false", () => {
+    const redShirts = [5, 5, 3, 9, 2];
+    const blueShirts = [3, 6, 7, 2, 1];
+    expect(tandemBicycle(redShirts, blueShirts, false)).to.equal(25);
   });
 });

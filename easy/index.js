@@ -7,6 +7,7 @@ const GraphNode = require("./graphDFS");
 const palindromeCheck = require("./palindromeCheck");
 const minimumWaitTime = require("./minimumWaitTime");
 const classPhotos = require("./classPhotos");
+const tandemBicycle = require("./tandemBicycle");
 
 module.exports = {
   twoNumberSum,
@@ -18,4 +19,5 @@ module.exports = {
   palindromeCheck,
   minimumWaitTime,
   classPhotos,
+  tandemBicycle,
 };

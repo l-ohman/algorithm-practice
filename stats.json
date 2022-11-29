@@ -77,6 +77,13 @@
     "date": "28-11-22"
   },
   {
+    "title": "Tandem Bicycle",
+    "difficulty": "easy",
+    "type": "Greedy",
+    "solved": true,
+    "date": "28-11-22"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
