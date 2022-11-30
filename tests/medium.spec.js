@@ -198,7 +198,7 @@ describe("Min Heap Construction", () => {
     minHeap.heap = [8, 12, 23, 17, 31, 30, 44, 22, 18];
   });
 
-  it("buildHeap method creates a valid heap from the input array", () => {
+  it("'buildHeap' method creates a valid heap from the input array", () => {
     const originalLength = minHeap.length;
     minHeap = new MinHeap(minHeap);
 
@@ -213,9 +213,11 @@ describe("Min Heap Construction", () => {
     );
   });
 
-  it("remove method", () => {
+  it("'remove' method removes the root node from the heap", () => {
     const originalLength = minHeap.heap.length;
-    minHeap.remove();
+    const removedVal = minHeap.remove();
+    expect(removedVal).to.equal(8, "'remove' does not return the correct removed value");
+
     expect(minHeap.heap.length).to.equal(
       originalLength - 1,
       "Heap is not correct length after calling 'remove' once"
@@ -234,7 +236,7 @@ describe("Min Heap Construction", () => {
     );
   });
 
-  it("Insert", () => {
+  it("'insert' method inserts integers correctly within the heap", () => {
     const originalLength = minHeap.heap.length;
     minHeap.insert(48);
     expect(minHeap.heap.length).to.equal(
@@ -249,13 +251,13 @@ describe("Min Heap Construction", () => {
       "Heap is not correct length after calling 'insert' multiple times"
     );
 
-    expect(isValidHeap(newHeap.heap)).to.equal(
+    expect(isValidHeap(minHeap.heap)).to.equal(
       true,
       "Heap does not fulfill the requirements of a heap DST after calling 'insert'"
     );
   });
 
-  it("peek method", () => {
+  it("'peek' method returns the root node value", () => {
     expect(minHeap.peek()).to.equal(8);
   });
 });

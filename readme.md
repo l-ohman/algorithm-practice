@@ -4,22 +4,22 @@ Repo to practice solving algos and writing unit tests.
 
 These problems are a mix from various algorithm-practice sites, such as AlgoExpert, Leetcode, etc.
 
-<!-- todo: display the json data in some online visualization (probably with github pages)-->
+<!-- todo: display the json data in some online visualization (probably with github pages) -->
 <!-- todo: add specific commands for testing difficulties -->
 
 ## Progress
 
 <!-- 'Hard' includes the 'Very Hard' problems that some sites have -->
-|               | Easy     | Medium   | Hard     | Total |
-| ------------- | -------- | -------- | -------- | ----- |
-| Arrays        | 2        | 0        | 0        |       |
-| Strings       | 1        | 0        | 0        |       |
-| Greedy        | 3        | 1        | 0        |       |
-| Binary Trees* | 2        | 0        | 0        |       |
-| Heaps         | 0        | 0        | 0        |       |
-| Graphs        | 1        | 0        | 0        |       |
-| Linked Lists  | 1        | 1        | 0        |       |
-| Total         | 10       | 2        | 0        | 12    |
+|               | Easy     | Medium   | Hard     | Total    |
+| ------------- | -------- | -------- | -------- | -------- |
+| Greedy        | 3        | 1        | 0        | 4        |
+| Arrays        | 2        | 0        | 0        | 2        |
+| Binary Trees* | 2        | 0        | 0        | 2        |
+| Graphs        | 1        | 0        | 0        | 1        |
+| Heaps         | 0        | 1        | 0        | 1        |
+| Linked Lists  | 1        | 1        | 0        | 1        |
+| Strings       | 1        | 0        | 0        | 1        |
+| **Total**     | 10       | 3        | 0        | **13**   |
 
 *Includes Binary Search Tree
 
