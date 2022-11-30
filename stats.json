@@ -84,6 +84,13 @@
     "date": "28-11-22"
   },
   {
+    "title": "Min Heap Construction",
+    "difficulty": "medium",
+    "type": "Heap",
+    "solved": false,
+    "date": "dd-MM-yy"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",

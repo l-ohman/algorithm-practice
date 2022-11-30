@@ -1,6 +1,6 @@
 const { expect } = require("chai");
-const { DoublyLinkedListNode } = require("../utils");
-const { taskAssignment, DoublyLinkedList } = require("../medium");
+const { DoublyLinkedListNode, isValidHeap } = require("../utils");
+const { taskAssignment, DoublyLinkedList, MinHeap } = require("../medium");
 
 xdescribe("Task Assignment", () => {
   let output;
@@ -51,10 +51,11 @@ xdescribe("Task Assignment", () => {
   });
 });
 
-// learning experience: it seems like bad practice to have tests depend on eachother
-// like this — i cannot run a single test by itself because they share a linked list.
-// (also, these were not expansive enough to cover edge cases. but good practice regardless.)
 xdescribe("Linked List Construction", () => {
+  // learning experience: it seems like bad practice to have tests depend on eachother
+  // like this — i cannot run a single test by itself because they share a linked list.
+  // (also, these were not expansive enough to cover edge cases. but good practice regardless.)
+
   // example list: [1, 2, 3, 4, 5]
   // standalone nodes on the side: [3, 3, 6]
   let linkedList;
@@ -182,5 +183,79 @@ xdescribe("Linked List Construction", () => {
   it("containsNodeWithValue", () => {
     expect(linkedList.containsNodeWithValue(2)).to.equal(false);
     expect(linkedList.containsNodeWithValue(5)).to.equal(true);
+  });
+});
+
+describe("Min Heap Construction", () => {
+  // note: i am not testing siftDown and siftUp, as they are private methods, and the public methods depend on them.
+  // (unsure if this is correct practice.)
+
+  let minHeap = [31, 17, 23, 30, 44, 22, 18, 12, 8];
+  afterEach(() => {
+    // i have added this so the tests can run independently.
+    // (attempting to correct my mistake from linked list construction.)
+    minHeap = new MinHeap();
+    minHeap.heap = [8, 12, 23, 17, 31, 30, 44, 22, 18];
+  });
+
+  it("buildHeap method creates a valid heap from the input array", () => {
+    const originalLength = minHeap.length;
+    minHeap = new MinHeap(minHeap);
+
+    expect(isValidHeap(minHeap.heap)).to.equal(
+      true,
+      "Heap does not fulfill the requirements of a heap DST after calling 'buildHeap'"
+    );
+
+    expect(minHeap.heap.length).to.equal(
+      originalLength,
+      "Heap is not the same length as the input array"
+    );
+  });
+
+  it("remove method", () => {
+    const originalLength = minHeap.heap.length;
+    minHeap.remove();
+    expect(minHeap.heap.length).to.equal(
+      originalLength - 1,
+      "Heap is not correct length after calling 'remove' once"
+    );
+
+    minHeap.remove();
+    minHeap.remove();
+    expect(minHeap.heap.length).to.equal(
+      originalLength - 3,
+      "Heap is not correct length after calling 'remove' multiple times"
+    );
+
+    expect(isValidHeap(minHeap.heap)).to.equal(
+      true,
+      "Heap does not fulfill the requirements of a heap DST after calling 'remove'"
+    );
+  });
+
+  it("Insert", () => {
+    const originalLength = minHeap.heap.length;
+    minHeap.insert(48);
+    expect(minHeap.heap.length).to.equal(
+      originalLength + 1,
+      "Heap is not correct length after calling 'insert' once"
+    );
+
+    minHeap.insert(-17);
+    minHeap.insert(0);
+    expect(minHeap.heap.length).to.equal(
+      originalLength + 3,
+      "Heap is not correct length after calling 'insert' multiple times"
+    );
+
+    expect(isValidHeap(newHeap.heap)).to.equal(
+      true,
+      "Heap does not fulfill the requirements of a heap DST after calling 'insert'"
+    );
+  });
+
+  it("peek method", () => {
+    expect(minHeap.peek()).to.equal(8);
   });
 });
