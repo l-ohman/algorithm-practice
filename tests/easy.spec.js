@@ -239,7 +239,7 @@ xdescribe("Class Photos", () => {
   });
 });
 
-describe("Tandem Bicycle", () => {
+xdescribe("Tandem Bicycle", () => {
   it("Returns an integer", () => {
     expect(tandemBicycle([1, 2], [3, 4], true)).to.be.a("number");
     expect(tandemBicycle([8], [9], false)).to.be.a("number");

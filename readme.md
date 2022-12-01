@@ -1,15 +1,14 @@
 # Algorithm practice
 
 Repo to practice solving algos and writing unit tests.
-
-These problems are a mix from various algorithm-practice sites, such as AlgoExpert, Leetcode, etc.
+<!-- These problems are a mix from various algorithm-practice sites, such as AlgoExpert, Leetcode, etc. -->
 
 <!-- todo: display the json data in some online visualization (probably with github pages) -->
 <!-- todo: add specific commands for testing difficulties -->
 
 ## Progress
 
-<!-- 'Hard' includes the 'Very Hard' problems that some sites have -->
+<!-- On sites where 'Very Hard' is not a difficulty, I have added problems with a <35% success rate -->
 |               | Easy     | Medium   | Hard     | Total    |
 | ------------- | -------- | -------- | -------- | -------- |
 | Greedy        | 3        | 1        | 0        | 4        |
@@ -19,9 +18,9 @@ These problems are a mix from various algorithm-practice sites, such as AlgoExpe
 | Heaps         | 0        | 1        | 0        | 1        |
 | Linked Lists  | 1        | 1        | 0        | 1        |
 | Strings       | 1        | 0        | 0        | 1        |
-| **Total**     | 10       | 3        | 0        | **13**   |
+| **Total**     | **10**   | **3**    | **0**    | **13**   |
 
-*Includes Binary Search Tree
+<sup>*Includes Binary Search Tree</sup>
 
 Detailed records of problem type / difficulty stored in `stats.json`
 

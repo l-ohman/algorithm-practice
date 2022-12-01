@@ -91,6 +91,13 @@
     "date": "30-11-22"
   },
   {
+    "title": "Sudoku Solver",
+    "difficulty": "hard",
+    "type": "Matrix",
+    "solved": false,
+    "date": "dd-MM-yy"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
