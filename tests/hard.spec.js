@@ -31,8 +31,8 @@ describe("Solve Sudoku", () => {
     outputBoard = solveSudoku(inputBoard);
   });
 
-  it("The output is correctly structured", () => {
-    // some might say this test is unnecessary... and while i would agree with them, i already wrote it.
+  xit("The output is correctly structured", () => {
+    // some might say this test is unnecessary... and while i would agree with them, i already wrote it; so i'm keeping it anyway.
     expect(Array.isArray(outputBoard)).to.equal(true, "Output is not an array");
     expect(outputBoard.length).to.equal(9, "Invalid row count");
     expect(outputBoard[6].length).to.equal(9, "Invalid column count"); // column selected arbitrarily
@@ -41,21 +41,57 @@ describe("Solve Sudoku", () => {
   it("Each row has 9 unique values", () => {
     for (let i = 0; i < 9; i++) {
       const row = new Set(outputBoard[i]);
-      expect(row.size).to.equal(9, `Row ${i+1} has less than 9 unique values`);
+      expect(row.size).to.equal(
+        9,
+        `Row ${i + 1} has less than 9 unique values`
+      );
     }
   });
 
   it("Each column has 9 unique values", () => {
     for (let i = 0; i < 9; i++) {
-      const column = new Set(outputBoard.map(row => row[i]))
-      expect(column.size).to.equal(9, `Column ${i+1} has less than 9 unique values`);
+      const column = new Set(outputBoard.map((row) => row[i]));
+      expect(column.size).to.equal(
+        9,
+        `Column ${i + 1} has less than 9 unique values`
+      );
     }
   });
 
-  xit("Each subsquare (3x3) has 9 unique values", () => {
+  it("Each subsquare (3x3) has 9 unique values", () => {
+    // in this loop, 'currentGrid' keeps track of which 3x3 we are in at any point, as such:
+    // const loop = [
+    //   0, 0, 0, 1, 1, 1, 2, 2, 2,
+    //   0, 0, 0, 1, 1, 1, 2, 2, 2,
+    //   0, 0, 0, 1, 1, 1, 2, 2, 2,
+    //   3, 3, 3, 4, 4, 4, 5, 5, 5,
+    //   3, 3, 3, 4, 4, 4, 5, 5, 5,
+    //   3, 3, 3, 4, 4, 4, 5, 5, 5,
+    //   6, 6, 6, 7, 7, 7, 8, 8, 8,
+    //   6, 6, 6, 7, 7, 7, 8, 8, 8,
+    //   6, 6, 6, 7, 7, 7, 8, 8, 8
+    // ];
+    const grids = [];
     for (let i = 0; i < 9; i++) {
-      // not sure how to (efficiently) test this yet.
-      // may start working on problem first and return to this.
+      grids.push([]);
+    }
+
+    // this creates a new matrix, where each 'row' contains the values of a 3x3
+    let currentGrid = 0;
+    for (let i = 0; i < 9; i++) {
+      if (i && i % 3 === 0) currentGrid += 3;
+
+      for (let j = 0; j < 9; j++) {
+        if (j && j % 3 === 0) currentGrid++;
+        if (!j && i) currentGrid -= 2;
+        // console.log(grids[0]);
+        grids[currentGrid].push(outputBoard[i][j]);
+      }
+    }
+
+    for (let i = 0; i < 9; i++) {
+      const grid = new Set(grids[i]);
+      expect(grid.size).to.equal(9);
     }
   });
 });

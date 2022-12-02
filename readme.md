@@ -20,7 +20,7 @@ Repo to practice solving algos and writing unit tests.
 | Strings       | 1        | 0        | 0        | 1        |
 | **Total**     | **10**   | **3**    | **0**    | **13**   |
 
-<sup>*Includes Binary Search Tree</sup>
+*<sup>Includes Binary Search Tree</sup>
 
 Detailed records of problem type / difficulty stored in `stats.json`
 
