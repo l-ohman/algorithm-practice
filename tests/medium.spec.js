@@ -1,6 +1,11 @@
 const { expect } = require("chai");
 const { DoublyLinkedListNode, isValidHeap } = require("../utils");
-const { taskAssignment, DoublyLinkedList, MinHeap } = require("../medium");
+const {
+  taskAssignment,
+  DoublyLinkedList,
+  MinHeap,
+  validStartingCity,
+} = require("../medium");
 
 xdescribe("Task Assignment", () => {
   let output;
@@ -216,7 +221,10 @@ xdescribe("Min Heap Construction", () => {
   it("'remove' method removes the root node from the heap", () => {
     const originalLength = minHeap.heap.length;
     const removedVal = minHeap.remove();
-    expect(removedVal).to.equal(8, "'remove' does not return the correct removed value");
+    expect(removedVal).to.equal(
+      8,
+      "'remove' does not return the correct removed value"
+    );
 
     expect(minHeap.heap.length).to.equal(
       originalLength - 1,
@@ -259,5 +267,23 @@ xdescribe("Min Heap Construction", () => {
 
   it("'peek' method returns the root node value", () => {
     expect(minHeap.peek()).to.equal(8);
+  });
+});
+
+xdescribe("Valid Starting City", () => {
+  it("Returns a number", () => {
+    expect(validStartingCity([10, 20], [5, 15], 50)).to.be.a("number");
+  });
+
+  it("Returns the correct city", () => {
+    let distances = [5, 25, 15, 10, 15];
+    let fuel = [1, 2, 1, 0, 3];
+    let mpg = 10;
+    expect(validStartingCity(distances, fuel, mpg)).to.equal(4);
+
+    distances = [30, 40, 10, 10, 17, 13, 50, 30, 10, 40];
+    fuel = [1, 2, 0, 1, 1, 0, 3, 1, 0, 1];
+    mpg = 25;
+    expect(validStartingCity(distances, fuel, mpg)).to.equal(1);
   });
 });

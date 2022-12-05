@@ -95,7 +95,14 @@
     "difficulty": "hard",
     "type": "Matrix",
     "solved": false,
-    "date": "dd-MM-yy"
+    "date": ""
+  },
+  {
+    "title": "Valid Starting City",
+    "difficulty": "medium",
+    "type": "Greedy",
+    "solved": true,
+    "date": "05-12-22"
   },
   {
     "title": "",

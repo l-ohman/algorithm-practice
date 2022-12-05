@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { solveSudoku } = require("../hard");
 
-describe("Solve Sudoku", () => {
+xdescribe("Solve Sudoku", () => {
   // board1: relatively easy puzzle
   const inputBoard = [
     [7, 8, 0, 4, 0, 0, 1, 2, 0],
@@ -27,10 +27,11 @@ describe("Solve Sudoku", () => {
     [4, 9, 0, 0, 3, 0, 0, 0, 0]
   ];
   
-  console.log("\nAttempting to solve easy puzzle...")
-  const outputBoard = solveSudoku(inputBoard);
-  console.log("\nAttempting to solve hard puzzle...")
-  const outputBoard2 = solveSudoku(inputBoard2);
+  // console.log("\nAttempting to solve easy puzzle...")
+  // const outputBoard = solveSudoku(inputBoard);
+  // console.log("\nAttempting to solve hard puzzle...")
+  // const outputBoard2 = solveSudoku(inputBoard2);
+  
   // const correctOutput = [
   //   [7, 8, 5, 4, 3, 9, 1, 2, 6],
   //   [6, 1, 2, 8, 7, 5, 3, 4, 9],
