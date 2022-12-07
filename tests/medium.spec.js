@@ -270,7 +270,7 @@ xdescribe("Min Heap Construction", () => {
   });
 });
 
-xdescribe("Valid Starting City", () => {
+describe("Valid Starting City", () => {
   it("Returns a number", () => {
     expect(validStartingCity([10, 20], [5, 15], 50)).to.be.a("number");
   });
