@@ -12,7 +12,7 @@ Repo where I practice algorithms and writing tests
 <!-- On sites where 'Very Hard' is not a difficulty, I have added problems with a <35% success rate -->
 |               | Easy     | Medium   | Hard     | Total    |
 | ------------- | -------- | -------- | -------- | -------- |
-| Arrays        | 2        | 0        | 0        | 2        |
+| Arrays        | 3        | 0        | 0        | 3        |
 | Binary Trees* | 2        | 0        | 0        | 2        |
 | Graphs        | 1        | 0        | 0        | 1        |
 | Greedy        | 3        | 2        | 0        | 5        |
@@ -20,7 +20,7 @@ Repo where I practice algorithms and writing tests
 | Linked Lists  | 1        | 1        | 0        | 2        |
 | Matrix        | 0        | 0        | 0        | 0        |
 | Strings       | 1        | 0        | 0        | 1        |
-| **Total**     | **10**   | **4**    | **0**    | **14**   |
+| **Total**     | **11**   | **4**    | **0**    | **15**   |
 
 <sup>*Includes Binary Search Tree</sup>
 

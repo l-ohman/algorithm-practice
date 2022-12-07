@@ -11,6 +11,7 @@ const {
   minimumWaitTime,
   classPhotos,
   tandemBicycle,
+  sortedSquaredArray,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -243,7 +244,7 @@ xdescribe("Tandem Bicycle", () => {
   it("Returns an integer", () => {
     expect(tandemBicycle([1, 2], [3, 4], true)).to.be.a("number");
     expect(tandemBicycle([8], [9], false)).to.be.a("number");
-  })
+  });
 
   it("Returns the correct value when 'fastest' is true", () => {
     const redShirts = [5, 5, 3, 9, 2];
@@ -255,5 +256,21 @@ xdescribe("Tandem Bicycle", () => {
     const redShirts = [5, 5, 3, 9, 2];
     const blueShirts = [3, 6, 7, 2, 1];
     expect(tandemBicycle(redShirts, blueShirts, false)).to.equal(25);
+  });
+});
+
+describe("Sorted Squared Array", () => {
+  it("Returns an array of the correct length", () => {
+    expect(Array.isArray(sortedSquaredArray([0]))).to.equal(true);
+    expect(Array.isArray(sortedSquaredArray([1, 5, 8, 9]))).to.equal(true);
+    expect(sortedSquaredArray([5]).length).to.equal(1);
+    expect(sortedSquaredArray([5, 10, 25]).length).to.equal(3);
+  });
+
+  it("The output is sorted correctly", () => {
+    expect(sortedSquaredArray([2, 7, 8])).to.eql([4, 49, 64]);
+    expect(sortedSquaredArray([-5, 0])).to.eql([0, 25]);
+    expect(sortedSquaredArray([-8, -3, 2, 5, 9])).to.eql([4, 9, 25, 64, 81]);
+    expect(sortedSquaredArray([-5, -4, -3, -2, -1])).to.eql([1, 4, 9, 16, 25]);
   });
 });

@@ -8,6 +8,7 @@ const palindromeCheck = require("./palindromeCheck");
 const minimumWaitTime = require("./minimumWaitTime");
 const classPhotos = require("./classPhotos");
 const tandemBicycle = require("./tandemBicycle");
+const sortedSquaredArray = require("./sortedSquaredArray");
 
 module.exports = {
   twoNumberSum,
@@ -20,4 +21,5 @@ module.exports = {
   minimumWaitTime,
   classPhotos,
   tandemBicycle,
+  sortedSquaredArray,
 };
