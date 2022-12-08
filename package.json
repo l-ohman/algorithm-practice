@@ -4,7 +4,10 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests --recursive -w"
+    "test": "mocha tests --recursive -w",
+    "test:easy": "mocha tests/easy.spec.js -w",
+    "test:medium": "mocha tests/medium.spec.js -w",
+    "test:hard": "mocha tests/hard.spec.js -w"
   },
   "dependencies": {
     "chai": "^4.3.7",
