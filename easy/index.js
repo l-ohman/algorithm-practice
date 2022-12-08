@@ -10,6 +10,7 @@ const classPhotos = require("./classPhotos");
 const tandemBicycle = require("./tandemBicycle");
 const sortedSquaredArray = require("./sortedSquaredArray");
 const getNthFib = require("./nthFibonacci");
+const productSum = require("./productSum");
 
 module.exports = {
   twoNumberSum,
@@ -24,4 +25,5 @@ module.exports = {
   tandemBicycle,
   sortedSquaredArray,
   getNthFib,
+  productSum,
 };

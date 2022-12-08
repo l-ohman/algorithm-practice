@@ -13,6 +13,7 @@ const {
   tandemBicycle,
   sortedSquaredArray,
   getNthFib,
+  productSum,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -276,7 +277,7 @@ xdescribe("Sorted Squared Array", () => {
   });
 });
 
-describe("Get Nth Fibonacci", () => {
+xdescribe("Get Nth Fibonacci", () => {
   it("Returns an integer", () => {
     expect(getNthFib(1)).to.be.a("number");
     expect(getNthFib(7)).to.be.a("number");
@@ -286,5 +287,18 @@ describe("Get Nth Fibonacci", () => {
     expect(getNthFib(1)).to.equal(0);
     expect(getNthFib(3)).to.equal(1);
     expect(getNthFib(9)).to.equal(21);
+  });
+});
+
+describe("Product Sum", () => {
+  it("Returns an integer", () => {
+    expect(productSum([0])).to.be.a("number");
+    expect(productSum([4, [2, 3, [1]], 4])).to.be.a("number");
+  });
+
+  it("Returns the correct sum", () => {
+    expect(productSum([0, [0, [0, 0], 0]])).to.equal(0);
+    expect(productSum([1, -3, [-5]])).to.equal(-12);
+    expect(productSum([2, [-9, 5, [8, -3]], 4])).to.equal(28);
   });
 });
