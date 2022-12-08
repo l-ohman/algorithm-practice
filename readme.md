@@ -2,37 +2,24 @@
 
 Repo where I practice algorithms and writing tests
 
-<!-- These problems are a mix from various algorithm-practice sites, such as AlgoExpert, Leetcode, etc. -->
-
+<!-- note: these problems are from a mix of various algo-practice sites. -->
 <!-- todo: display the json data in some online visualization (probably with github pages) -->
-<!-- todo: add specific commands for testing difficulties -->
 
 ## Progress
 
-<!-- On sites where 'Very Hard' is not a difficulty, I have added problems with a <35% success rate -->
-|               | Easy     | Medium   | Hard     | Total    |
-| ------------- | -------- | -------- | -------- | -------- |
-| Arrays        | 3        | 0        | 0        | 3        |
-| Binary Trees* | 2        | 0        | 0        | 2        |
-| Graphs        | 1        | 0        | 0        | 1        |
-| Greedy        | 3        | 2        | 0        | 5        |
-| Heaps         | 0        | 1        | 0        | 1        |
-| Linked Lists  | 1        | 1        | 0        | 2        |
-| Matrix        | 0        | 0        | 0        | 0        |
-| Recursion     | 2        | 0        | 0        | 2        |
-| Strings       | 1        | 0        | 0        | 1        |
-| **Total**     | **13**   | **4**    | **0**    | **17**   |
+| |Easy|Medium|Hard|Total|
+|-|-|-|-|-|
+|Array|3|0|0|3|
+|Binary Tree|1|0|0|1|
+|Binary Search Tree|1|0|0|1|
+|Linked List|1|1|0|2|
+|Graph|1|0|0|1|
+|String|1|0|0|1|
+|Greedy|3|2|0|5|
+|Heap|0|1|0|1|
+|Recursion|2|0|0|2|
+|Totals|**13**|**4**|**0**|**17**|
 
-<sup>*Includes Binary Search Tree</sup>
+<!-- <sup>*Includes Binary Search Tree</sup> -->
 
 Detailed records of problem type / difficulty stored in `stats.json`
-
-<!--
-  List of types to add to the graph (when attempted):
-    Searching
-    Sorting
-    Stacks
-    Recursion
-    Dynamic Programming
-    Trie
--->
