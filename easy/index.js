@@ -9,6 +9,7 @@ const minimumWaitTime = require("./minimumWaitTime");
 const classPhotos = require("./classPhotos");
 const tandemBicycle = require("./tandemBicycle");
 const sortedSquaredArray = require("./sortedSquaredArray");
+const getNthFib = require("./nthFibonacci");
 
 module.exports = {
   twoNumberSum,
@@ -22,4 +23,5 @@ module.exports = {
   classPhotos,
   tandemBicycle,
   sortedSquaredArray,
+  getNthFib,
 };

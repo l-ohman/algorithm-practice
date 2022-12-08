@@ -19,8 +19,9 @@ Repo where I practice algorithms and writing tests
 | Heaps         | 0        | 1        | 0        | 1        |
 | Linked Lists  | 1        | 1        | 0        | 2        |
 | Matrix        | 0        | 0        | 0        | 0        |
+| Recursion     | 1        | 0        | 0        | 1        |
 | Strings       | 1        | 0        | 0        | 1        |
-| **Total**     | **11**   | **4**    | **0**    | **15**   |
+| **Total**     | **12**   | **4**    | **0**    | **16**   |
 
 <sup>*Includes Binary Search Tree</sup>
 

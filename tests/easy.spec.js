@@ -12,6 +12,7 @@ const {
   classPhotos,
   tandemBicycle,
   sortedSquaredArray,
+  getNthFib,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -259,7 +260,7 @@ xdescribe("Tandem Bicycle", () => {
   });
 });
 
-describe("Sorted Squared Array", () => {
+xdescribe("Sorted Squared Array", () => {
   it("Returns an array of the correct length", () => {
     expect(Array.isArray(sortedSquaredArray([0]))).to.equal(true);
     expect(Array.isArray(sortedSquaredArray([1, 5, 8, 9]))).to.equal(true);
@@ -272,5 +273,18 @@ describe("Sorted Squared Array", () => {
     expect(sortedSquaredArray([-5, 0])).to.eql([0, 25]);
     expect(sortedSquaredArray([-8, -3, 2, 5, 9])).to.eql([4, 9, 25, 64, 81]);
     expect(sortedSquaredArray([-5, -4, -3, -2, -1])).to.eql([1, 4, 9, 16, 25]);
+  });
+});
+
+describe("Get Nth Fibonacci", () => {
+  it("Returns an integer", () => {
+    expect(getNthFib(1)).to.be.a("number");
+    expect(getNthFib(7)).to.be.a("number");
+  });
+
+  it("Returns the correct value in the sequence", () => {
+    expect(getNthFib(1)).to.equal(0);
+    expect(getNthFib(3)).to.equal(1);
+    expect(getNthFib(9)).to.equal(21);
   });
 });

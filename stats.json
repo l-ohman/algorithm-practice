@@ -112,6 +112,13 @@
     "date": "07-12-22"
   },
   {
+    "title": "Get Nth Fibonacci",
+    "difficulty": "easy",
+    "type": "Recursion",
+    "solved": true,
+    "date": "08-12-22"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
