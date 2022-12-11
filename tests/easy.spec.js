@@ -14,7 +14,7 @@ const {
   sortedSquaredArray,
   getNthFib,
   productSum,
-} = require("../easy");
+} = require("../easy/javascript");
 
 xdescribe("Two Number Sum", () => {
   it("Returns an array of two numbers when they add up to the target sum", () => {
@@ -290,7 +290,7 @@ xdescribe("Get Nth Fibonacci", () => {
   });
 });
 
-describe("Product Sum", () => {
+xdescribe("Product Sum", () => {
   it("Returns an integer", () => {
     expect(productSum([0])).to.be.a("number");
     expect(productSum([4, [2, 3, [1]], 4])).to.be.a("number");

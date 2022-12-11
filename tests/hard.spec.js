@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-const { solveSudoku } = require("../hard");
+const { solveSudoku } = require("../hard/javascript");
 
 xdescribe("Solve Sudoku", () => {
   // board1: relatively easy puzzle

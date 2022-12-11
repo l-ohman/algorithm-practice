@@ -8,6 +8,7 @@ Repo where I practice algorithms and writing unit tests
 
 ## Progress
 
+<!-- { javascript: 16, python: 5, both: 1 } -->
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
 |Array|3|0|0|3|

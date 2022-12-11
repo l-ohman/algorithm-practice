@@ -5,7 +5,7 @@ const {
   DoublyLinkedList,
   MinHeap,
   validStartingCity,
-} = require("../medium");
+} = require("../medium/javascript");
 
 xdescribe("Task Assignment", () => {
   let output;
