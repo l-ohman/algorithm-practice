@@ -1,8 +1,9 @@
 # Algorithm practice
 
-Repo where I practice algorithms and writing tests
+Repo where I practice algorithms and writing unit tests
 
 <!-- note: these problems are from a mix of various algo-practice sites. -->
+<!-- note: currently i am not testing for python, as i have not yet learned any python testing frameworks. -->
 <!-- todo: display the json data in some online visualization (probably with github pages) -->
 
 ## Progress
@@ -14,12 +15,10 @@ Repo where I practice algorithms and writing tests
 |Binary Search Tree|1|0|0|1|
 |Linked List|1|1|0|2|
 |Graph|1|0|0|1|
-|String|1|0|0|1|
+|String|5|0|0|5|
 |Greedy|3|2|0|5|
 |Heap|0|1|0|1|
 |Recursion|2|0|0|2|
-|Totals|**13**|**4**|**0**|**17**|
+|Totals|**17**|**4**|**0**|**21**|
 
-<!-- <sup>*Includes Binary Search Tree</sup> -->
-
-Detailed records of problem type / difficulty stored in `stats.json`
+Detailed records stored in `stats.json`

@@ -3,133 +3,184 @@
     "title": "Two Number Sum",
     "difficulty": "easy",
     "type": "Array",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "08-11-22"
   },
   {
     "title": "Validate Subsequence",
     "difficulty": "easy",
     "type": "Array",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "11-11-22"
   },
   {
     "title": "Branch Sums",
     "difficulty": "easy",
     "type": "Binary Tree",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "11-11-22"
   },
   {
     "title": "Closest Value in BST",
     "difficulty": "easy",
     "type": "Binary Search Tree",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "11-11-22"
   },
   {
     "title": "Remove Duplicates From Linked List",
     "difficulty": "easy",
     "type": "Linked List",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "11-11-22"
   },
   {
     "title": "Graph Depth-First Search",
     "difficulty": "easy",
     "type": "Graph",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "11-11-22"
   },
   {
     "title": "Palindrome Check",
     "difficulty": "easy",
     "type": "String",
-    "solved": true,
+    "javascript": true,
+    "python": true,
     "date": "11-11-22"
   },
   {
     "title": "Minimum Wait Time",
     "difficulty": "easy",
     "type": "Greedy",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "28-11-22"
   },
   {
     "title": "Class Photos",
     "difficulty": "easy",
     "type": "Greedy",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "28-11-22"
   },
   {
     "title": "Task Assignment",
     "difficulty": "medium",
     "type": "Greedy",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "28-11-22"
   },
   {
     "title": "Linked List Construction",
     "difficulty": "medium",
     "type": "Linked List",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "28-11-22"
   },
   {
     "title": "Tandem Bicycle",
     "difficulty": "easy",
     "type": "Greedy",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "28-11-22"
   },
   {
     "title": "Min Heap Construction",
     "difficulty": "medium",
     "type": "Heap",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "30-11-22"
   },
   {
     "title": "Sudoku Solver",
     "difficulty": "hard",
     "type": "Matrix",
-    "solved": false,
+    "javascript": false,
+    "python": false,
     "date": ""
   },
   {
     "title": "Valid Starting City",
     "difficulty": "medium",
     "type": "Greedy",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "05-12-22"
   },
   {
     "title": "Sorted Squared Array",
     "difficulty": "easy",
     "type": "Array",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "07-12-22"
   },
   {
     "title": "Get Nth Fibonacci",
     "difficulty": "easy",
     "type": "Recursion",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "08-12-22"
   },
   {
     "title": "Product Sum",
     "difficulty": "easy",
     "type": "Recursion",
-    "solved": true,
+    "javascript": true,
+    "python": false,
     "date": "08-12-22"
+  },
+  {
+    "title": "Caesar Cipher Encryptor",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "10-12-22"
+  },
+  {
+    "title": "First Non-Repeating Character",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "10-12-22"
+  },
+  {
+    "title": "Generate Document",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "10-12-22"
+  },
+  {
+    "title": "Run-Length Encoding",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "10-12-22"
   },
   {
     "title": "",
     "difficulty": "",
     "type": "",
-    "solved": false,
+    "javascript": false,
+    "python": false,
     "date": "dd-MM-yy"
   }
 ]

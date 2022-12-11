@@ -6,10 +6,6 @@ class BinaryTree {
   }
 }
 
-// function binaryTreeLogger(root) {
-//   // TODO - might be useful later
-// }
-
 // Node in singly linked list
 class SinglyLinkedList {
   constructor(value) {
@@ -26,14 +22,6 @@ class DoublyLinkedListNode {
     this.next = null;
   }
 }
-
-// function linkedListLogger(head) {
-//   // TODO
-// }
-
-// function isValidLinkedList(head) {
-//   // TODO
-// }
 
 function isValidHeap(array, isMinHeap = true) {
   if (!Array.isArray(array)) return false;
@@ -60,9 +48,7 @@ function isValidHeap(array, isMinHeap = true) {
 
 module.exports = {
   BinaryTree,
-  // binaryTreeLogger,
   SinglyLinkedList,
   DoublyLinkedListNode,
-  // linkedListLogger,
   isValidHeap,
 };

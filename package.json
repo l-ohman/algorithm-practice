@@ -8,7 +8,7 @@
     "test:easy": "mocha tests/easy.spec.js -w",
     "test:medium": "mocha tests/medium.spec.js -w",
     "test:hard": "mocha tests/hard.spec.js -w",
-    "table": "node generateMarkdownChart.js"
+    "table": "node createMarkdownTable.js"
   },
   "dependencies": {
     "chai": "^4.3.7",
