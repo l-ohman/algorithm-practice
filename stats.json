@@ -181,7 +181,15 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "dd-MM-yy"
+    "date": "11-12-22"
+  },
+  {
+    "title": "Array Binary Search",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "12-12-22"
   },
   {
     "title": "",
