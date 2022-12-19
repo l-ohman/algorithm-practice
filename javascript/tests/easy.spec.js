@@ -14,7 +14,7 @@ const {
   sortedSquaredArray,
   getNthFib,
   productSum,
-} = require("../easy/javascript");
+} = require("../easy");
 
 xdescribe("Two Number Sum", () => {
   it("Returns an array of two numbers when they add up to the target sum", () => {

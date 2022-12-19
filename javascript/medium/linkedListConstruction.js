@@ -1,4 +1,4 @@
-const { DoublyLinkedListNode: Node } = require("../../utils");
+const { DoublyLinkedListNode: Node } = require("../utils");
 
 // goal: write a class for doubly linked lists. the class should be able to:
 // set the head and tail of a linked list.
