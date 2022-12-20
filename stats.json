@@ -5,7 +5,7 @@
     "type": "Array",
     "javascript": true,
     "python": false,
-    "date": "08-11-22"
+    "date": "11-08-22"
   },
   {
     "title": "Validate Subsequence",
@@ -61,7 +61,7 @@
     "type": "Greedy",
     "javascript": true,
     "python": false,
-    "date": "28-11-22"
+    "date": "11-28-22"
   },
   {
     "title": "Class Photos",
@@ -69,7 +69,7 @@
     "type": "Greedy",
     "javascript": true,
     "python": false,
-    "date": "28-11-22"
+    "date": "11-28-22"
   },
   {
     "title": "Task Assignment",
@@ -77,7 +77,7 @@
     "type": "Greedy",
     "javascript": true,
     "python": false,
-    "date": "28-11-22"
+    "date": "11-28-22"
   },
   {
     "title": "Linked List Construction",
@@ -85,7 +85,7 @@
     "type": "Linked List",
     "javascript": true,
     "python": false,
-    "date": "28-11-22"
+    "date": "11-28-22"
   },
   {
     "title": "Tandem Bicycle",
@@ -93,7 +93,7 @@
     "type": "Greedy",
     "javascript": true,
     "python": false,
-    "date": "28-11-22"
+    "date": "11-28-22"
   },
   {
     "title": "Min Heap Construction",
@@ -101,7 +101,7 @@
     "type": "Heap",
     "javascript": true,
     "python": false,
-    "date": "30-11-22"
+    "date": "11-30-22"
   },
   {
     "title": "Sudoku Solver",
@@ -117,7 +117,7 @@
     "type": "Greedy",
     "javascript": true,
     "python": false,
-    "date": "05-12-22"
+    "date": "12-05-22"
   },
   {
     "title": "Sorted Squared Array",
@@ -125,7 +125,7 @@
     "type": "Array",
     "javascript": true,
     "python": false,
-    "date": "07-12-22"
+    "date": "12-07-22"
   },
   {
     "title": "Get Nth Fibonacci",
@@ -133,7 +133,7 @@
     "type": "Recursion",
     "javascript": true,
     "python": false,
-    "date": "08-12-22"
+    "date": "12-08-22"
   },
   {
     "title": "Product Sum",
@@ -141,7 +141,7 @@
     "type": "Recursion",
     "javascript": true,
     "python": false,
-    "date": "08-12-22"
+    "date": "12-08-22"
   },
   {
     "title": "Caesar Cipher Encryptor",
@@ -149,7 +149,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "10-12-22"
+    "date": "12-10-22"
   },
   {
     "title": "First Non-Repeating Character",
@@ -157,7 +157,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "10-12-22"
+    "date": "12-10-22"
   },
   {
     "title": "Generate Document",
@@ -165,7 +165,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "10-12-22"
+    "date": "12-10-22"
   },
   {
     "title": "Run-Length Encoding",
@@ -173,7 +173,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "10-12-22"
+    "date": "12-10-22"
   },
   {
     "title": "Longest Palindromic Substring",
@@ -181,7 +181,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "11-12-22"
+    "date": "12-11-22"
   },
   {
     "title": "Array Binary Search",
@@ -197,7 +197,7 @@
     "type": "String",
     "javascript": false,
     "python": true,
-    "date": "19-12-22"
+    "date": "12-19-22"
   },
   {
     "title": "",
