@@ -14,6 +14,7 @@ const {
   sortedSquaredArray,
   getNthFib,
   productSum,
+  findThreeLargestNumbers,
 } = require("../easy");
 
 xdescribe("Two Number Sum", () => {
@@ -300,5 +301,24 @@ xdescribe("Product Sum", () => {
     expect(productSum([0, [0, [0, 0], 0]])).to.equal(0);
     expect(productSum([1, -3, [-5]])).to.equal(-12);
     expect(productSum([2, [-9, 5, [8, -3]], 4])).to.equal(28);
+  });
+});
+
+describe("Find Three Largest Numbers", () => {
+  let array;
+  beforeEach(() => {
+    array = [1, 5, 8, 4, 6, 9];
+  });
+
+  it("Does not modify the input array", () => {
+    const arrayCopy = array.slice();
+    findThreeLargestNumbers(array);
+    expect(array).to.eql(arrayCopy);
+  });
+
+  it("Returns a sorted array of the largest three integers", () => {
+    expect(findThreeLargestNumbers(array)).to.eql([6, 8, 9]);
+    expect(findThreeLargestNumbers([3, -10, 8, 4])).to.eql([3, 4, 8]);
+    expect(findThreeLargestNumbers([1, 1, 1, 1, 1, 1])).to.eql([1, 1, 1]);
   });
 });

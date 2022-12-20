@@ -11,6 +11,7 @@ const tandemBicycle = require("./tandemBicycle");
 const sortedSquaredArray = require("./sortedSquaredArray");
 const getNthFib = require("./nthFibonacci");
 const productSum = require("./productSum");
+const findThreeLargestNumbers = require("./findThreeLargest");
 
 module.exports = {
   twoNumberSum,
@@ -26,4 +27,5 @@ module.exports = {
   sortedSquaredArray,
   getNthFib,
   productSum,
+  findThreeLargestNumbers,
 };

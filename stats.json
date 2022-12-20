@@ -200,11 +200,19 @@
     "date": "12-19-22"
   },
   {
+    "title": "Find Three Largest Numbers",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "12-20-22"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
     "javascript": false,
     "python": false,
-    "date": "dd-MM-yy"
+    "date": "mm-dd-yy"
   }
 ]
