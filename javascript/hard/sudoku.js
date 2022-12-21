@@ -10,51 +10,95 @@
 // it seems my idea above works for easier puzzles, but not for more difficult ones:
 // some puzzles have 0 squares that can be determined based only on row/column/grid,
 // so we must find a way to compare possible values of related squares to determine some values.
+// alternatively, we could guess some square, and see if the puzzle can be solved with that guess.
 
-// -- an idea about how to reapproach -- //
-// iterate through a row, and replace each 0 with an array of possible values;
-// if the row does not yet have a number 'n', but a single square has 'n' as a possible value,
-// then fill that square in with the number 'n'.
+// === assuming the 'comparePossibleValues' method does not work === //
+// if we pass over the board and find nothing, we should:
+// fill in the first empty space with one of its possible values (cell [i, j]);
+// then pass over the board again and continue the loop.
+// if at any point the puzzle becomes impossible to solve:
+// return to the point at which we guessed [i, j] and enter it's next possible value.
+// continue this process.
 
-function solveSudoku(board) {
-  let isSolved = false;
+// util
+const emptyBoard = new Array(9).fill(new Array(9).fill(0));
+
+function solveSudoku(board, depth=0) {
   let numberOfPasses = 0; // just out of curiosity...
+
+  let isSolved = false;
+  let previousPassFailed = false;
+  let isPossible = true;
+
+  // storing board before guessing and values to iterate
+  let boardCopy = JSON.parse(JSON.stringify(board));
+  let guessIdx = 0;
+
   while (!isSolved) {
+    // return an empty board if the puzzle is impossible
+    // note: this is only used when guessing values
+    if (isPossible === false && depth > 0) {
+      return emptyBoard;
+    }
+
     numberOfPasses++;
-    isSolved = iterateOverBoard(board, numberOfPasses);
+    if ((guessIdx > 80 || numberOfPasses > 15)) {
+      // console.log(`Infinite loop detected, exiting...`);
+      return board;
+    }
+
+    // using 'isRoot' so the recursive calls don't assume the starting puzzle is possible
+    if (previousPassFailed && isPossible && depth < 3) {
+      const emptySquares = countEmptySquares(board);
+      for (let i = 0; i < emptySquares; i++) {
+        boardCopy = guessNthEmptyCell(boardCopy, guessIdx, depth+1);
+
+        if (countEmptySquares(boardCopy) === 0) {
+          // if it was successful with the guess, return it
+          console.log(`Final solution (using a guess): Passes: ${numberOfPasses} | guessIdx ${guessIdx} | depth: ${depth}`);
+          console.log(boardCopy);
+          return boardCopy;
+        } else {
+          // if the attempt to solve with a guess fails, increment guessIdx and continue
+          guessIdx++;
+          previousPassFailed = false;
+        }
+      }
+    }
+
+    [isSolved, previousPassFailed, isPossible] = iterateOverBoard(
+      board,
+      previousPassFailed,
+      numberOfPasses
+    );
+
+    // console.log(
+    //   `Depth: ${depth} | isSolved: ${isSolved} | isPossible: ${isPossible}`
+    // );
   }
+
+  console.log(`Final solution: Passes: ${numberOfPasses} | guessIdx ${guessIdx} | depth: ${depth}`);
+  console.log(board);
   return board;
 }
 
 // iterates over board and updates necessary values
 // returns boolean of whether or not puzzle is solved
-function iterateOverBoard(board, pass = 0) {
+function iterateOverBoard(board, previousPassFailed, pass) {
   let isSolved = true;
-
-  // just out of curiosity...
+  let isPossible = true;
   let squaresAttempted = 0;
   let squaresSolved = 0;
 
   for (let i = 0; i < 9; i++) {
     for (let j = 0; j < 9; j++) {
-      if (board[i][j] === 0 || Array.isArray(board[i][j])) {
+      if (board[i][j] === 0) {
         let newValue = attemptSolveSquare(board, [i, j]);
         board[i][j] = newValue;
         squaresAttempted++;
 
-        if (newValue && !Array.isArray(newValue)) {
+        if (newValue) {
           squaresSolved++;
-        } else if (pass > 1 && Array.isArray(newValue)) { 
-          // console.log(`possible values at [${i}, ${j}]`);
-          // console.log(newValue);
-          newValue = comparingPossibleValues(board, [i, j]);
-          if (newValue) {
-            board[i][j] = newValue;
-            squaresSolved++;
-          } else {
-            // here - set the coordinate to an array of possible values
-            isSolved = false;
-          }
         } else {
           isSolved = false;
         }
@@ -62,36 +106,41 @@ function iterateOverBoard(board, pass = 0) {
     }
   }
 
-  // tmp error handling to prevent infinite loops
-  if (squaresSolved === 0) {
-    console.log(
-      `Error: Unable to solve any squares on Pass ${pass}\nSquares Attempted: ${squaresAttempted}`
-    );
-    // console.log(board);
-    return true;
-  } else {
-    if (pass)
-      console.log(
-        `Pass ${pass} | Squares Attempted: ${squaresAttempted} | Squares Solved: ${squaresSolved} (${(
-          (squaresSolved / squaresAttempted) *
-          100
-        ).toPrecision(4)}%)`
-      );
-    return isSolved;
+  // if we fail to make progress in 2 passes, then puzzle must be impossible with this method
+  if (previousPassFailed && squaresSolved === 0) {
+    isPossible = false;
+  } else if (squaresSolved === 0) {
+    previousPassFailed = true;
+  } else if (squaresSolved > 0) {
+    previousPassFailed = false;
   }
+
+  // console.log(
+  //   `Pass ${pass} | Squares Attempted: ${squaresAttempted} | Squares Solved: ${squaresSolved} (${(
+  //     (squaresSolved / squaresAttempted) *
+  //     100
+  //   ).toPrecision(4)}%)`
+  // );
+  return [isSolved, previousPassFailed, isPossible];
 }
 
-// coord: [y, x] or [i, j]
-function attemptSolveSquare(board, coord = [0, 0]) {
-  let usedValues = [];
+function attemptSolveSquare(board, coord) {
+  const possibleValues = getPossibleValues(board, coord);
+  if (possibleValues.length === 1) return possibleValues[0];
+  else return 0;
+}
+
+// [y, x] or [i, j]
+function getPossibleValues(board, coord) {
+  const usedValues = [];
 
   for (let i = 0; i < 9; i++) {
     // add items to row (if it is no 0 or an array)
-    if (board[coord[0]][i] && !Array.isArray(board[coord[0]][i])) {
+    if (board[coord[0]][i]) {
       usedValues.push(board[coord[0]][i]);
     }
     // add items to column (if it is no 0 or an array)
-    if (board[i][coord[1]] && !Array.isArray(board[i][coord[1]])) {
+    if (board[i][coord[1]]) {
       usedValues.push(board[i][coord[1]]);
     }
   }
@@ -110,65 +159,64 @@ function attemptSolveSquare(board, coord = [0, 0]) {
     }
   }
 
-  usedValues = new Set(usedValues);
-  if (usedValues.size < 8) {
-    let possibleValues = [];
-    for (let i = 1; i <= 9; i++) {
-      if (usedValues.has(i)) possibleValues.push(i);
-    }
-    return possibleValues;
-  }
-
+  const usedValuesSet = new Set(usedValues);
+  let possibleValues = [];
   for (let i = 1; i <= 9; i++) {
-    if (!usedValues.has(i)) return i;
+    if (!usedValuesSet.has(i)) possibleValues.push(i);
   }
+  return possibleValues;
 }
 
-// coord: [y, x] or [i, j]
-function comparingPossibleValues(board, coord) {
-  // comparing possible values within the row
-  let possibleValues = {};
+function guessNthEmptyCell(board, n, depth) {
+  let zeroesToSkip = n;
+  let boardCopy;
+
+  // find the nth cell with '0' and replace it with its mth possible value
   for (let i = 0; i < 9; i++) {
-    if (Array.isArray(board[coord[0]][i])) {
-      // iterate through the array of possible values stored at this coord
-      for (let j = 0; j < board[coord[0]][i].length; j++) {
-        if (!possibleValues[board[coord[0]][i][j]]) {
-          possibleValues[board[coord[0]][i][j]] = 1;
-        } else {
-          possibleValues[board[coord[0]][i][j]] += 1;
+    for (let j = 0; j < 9; j++) {
+      if (board[i][j] !== 0) continue;
+
+      if (zeroesToSkip === 0) {
+        // console.log(`\nGuessing cell ${n}`);
+        zeroesToSkip--;
+        // get the possible values for this square and attempt to solve with each of them
+        const possibleValues = getPossibleValues(board, [i, j]);
+        // console.log(
+        //   `${possibleValues.length} possible values detected for [${i}, ${j}]`
+        // );
+
+        for (let k = 0; k < possibleValues.length; k++) {
+          boardCopy = JSON.parse(JSON.stringify(board));
+          boardCopy[i][j] = possibleValues[k];
+
+          boardCopy = solveSudoku(boardCopy, depth);
+          if (countEmptySquares(boardCopy) === 0) {
+            console.log(`Success`);
+            console.log(boardCopy, "\n");
+            return boardCopy;
+          } else {
+            // console.log(
+            //   `Attempt to solve with [${i}, ${j}] as ${possibleValues[k]} failed`
+            // );
+          }
         }
       }
-    }
-  }
-  for (int in possibleValues) {
-    if (possibleValues[int] === 1) {
-      return Number(int);
+      zeroesToSkip--;
     }
   }
 
-  // comparing possible values within the column
-  possibleValues = {};
+  return board;
+}
+
+function countEmptySquares(board) {
+  // console.log(board);
+  let n = 0;
   for (let i = 0; i < 9; i++) {
-    if (Array.isArray(board[i][coord[1]])) {
-      // iterate through the array of possible values stored at this coord
-      for (let j = 0; j < board[i][coord[1]].length; j++) {
-        if (!possibleValues[board[i][coord[1]][j]]) {
-          possibleValues[board[i][coord[1]][j]] = 1;
-        } else {
-          possibleValues[board[i][coord[1]][j]] += 1;
-        }
-      }
+    for (let j = 0; j < 9; j++) {
+      if (board[i][j] === 0) n++;
     }
   }
-  console.log(possibleValues);
-  // for (int in possibleValues) {
-  //   if (possibleValues[int] === 1) {
-  //     return Number(int);
-  //   }
-  // }
-  // grid
-
-  // return [] || "n";
+  return n;
 }
 
 module.exports = solveSudoku;

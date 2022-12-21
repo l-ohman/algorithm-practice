@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { solveSudoku } = require("../hard");
 
-xdescribe("Solve Sudoku", () => {
+describe("Solve Sudoku", () => {
   // board1: relatively easy puzzle
   const inputBoard = [
     [7, 8, 0, 4, 0, 0, 1, 2, 0],
@@ -27,10 +27,10 @@ xdescribe("Solve Sudoku", () => {
     [4, 9, 0, 0, 3, 0, 0, 0, 0]
   ];
   
-  // console.log("\nAttempting to solve easy puzzle...")
-  // const outputBoard = solveSudoku(inputBoard);
-  // console.log("\nAttempting to solve hard puzzle...")
-  // const outputBoard2 = solveSudoku(inputBoard2);
+  console.log("\nAttempting to solve easy puzzle...")
+  const outputBoard = solveSudoku(inputBoard);
+  console.log("\nAttempting to solve hard puzzle...")
+  const outputBoard2 = solveSudoku(inputBoard2);
   
   // const correctOutput = [
   //   [7, 8, 5, 4, 3, 9, 1, 2, 6],
@@ -44,11 +44,10 @@ xdescribe("Solve Sudoku", () => {
   //   [3, 4, 9, 2, 1, 6, 8, 5, 7],
   // ];
 
-  // console.log(outputBoard);
+  console.log(outputBoard2);
   // logging boards for debugging purposes
 
   it("The output is correctly structured", () => {
-    // some might say this test is unnecessary... and while i would agree with them, i already wrote it; so i'm keeping it anyway.
     expect(Array.isArray(outputBoard)).to.equal(true, "Output is not an array");
     expect(outputBoard.length).to.equal(9, "Invalid row count");
     expect(outputBoard[6].length).to.equal(9, "Invalid column count"); // column selected arbitrarily
