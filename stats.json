@@ -202,10 +202,18 @@
   {
     "title": "Find Three Largest Numbers",
     "difficulty": "easy",
-    "type": "Array",
+    "type": "Search",
     "javascript": true,
     "python": false,
     "date": "12-20-22"
+  },
+  {
+    "title": "Search In Sorted Matrix",
+    "difficulty": "medium",
+    "type": "Search",
+    "javascript": true,
+    "python": false,
+    "date": "12-21-22"
   },
   {
     "title": "",

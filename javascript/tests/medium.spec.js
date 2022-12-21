@@ -5,6 +5,7 @@ const {
   DoublyLinkedList,
   MinHeap,
   validStartingCity,
+  searchInSortedMatrix,
 } = require("../medium");
 
 xdescribe("Task Assignment", () => {
@@ -285,5 +286,21 @@ xdescribe("Valid Starting City", () => {
     fuel = [1, 2, 0, 1, 1, 0, 3, 1, 0, 1];
     mpg = 25;
     expect(validStartingCity(distances, fuel, mpg)).to.equal(1);
+  });
+});
+
+describe("Search Sorted Matrix", () => {
+  it("Returns the correct coordinates of the specified target", () => {
+    const matrix = [
+      [1, 4, 7, 12, 25],
+      [2, 6, 19, 31, 32],
+      [5, 8, 24, 33, 37],
+      [9, 14, 26, 38, 42],
+    ];
+
+    expect(searchInSortedMatrix(matrix, 33)).to.eql([2, 3]);
+    expect(searchInSortedMatrix(matrix, 25)).to.eql([0, 4]);
+    expect(searchInSortedMatrix(matrix, 42)).to.eql([3, 4]);
+    expect(searchInSortedMatrix(matrix, 51)).to.eql([-1, -1]);
   });
 });
