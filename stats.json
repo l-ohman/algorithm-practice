@@ -106,10 +106,10 @@
   {
     "title": "Sudoku Solver",
     "difficulty": "hard",
-    "type": "Matrix",
-    "javascript": false,
+    "type": "Recursion",
+    "javascript": true,
     "python": false,
-    "date": ""
+    "date": "12-21-22"
   },
   {
     "title": "Valid Starting City",
