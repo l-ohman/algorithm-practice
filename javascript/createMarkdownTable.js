@@ -39,9 +39,10 @@ function restructureData(stats) {
 function convertDataToTable(data) {
   console.log("| |Easy|Medium|Hard|Total|\n|-|-|-|-|-|");
 
-  // probably should sort these in alphabetical order
+  const keys = Object.keys(data).sort();
   let totals;
-  for (let type in data) {
+  for (let i = 0; i < keys.length; i++) {
+    const type = keys[i];
     if (type === "totals") {
       totals = data[type];
     } else {
