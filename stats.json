@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "Two Number Sum",
     "difficulty": "easy",
     "type": "Array",
@@ -226,7 +225,7 @@
   {
     "title": "Integer to Roman Numeral",
     "difficulty": "medium",
-    "type": "Hash Table",
+    "type": "Hash Map",
     "javascript": false,
     "python": true,
     "date": "12-22-22"
@@ -239,7 +238,15 @@
     "python": true,
     "date": "12-24-22"
   },
-    {
+  {
+    "title": "Valid Anagram",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "12-24-22"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
