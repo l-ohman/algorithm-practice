@@ -232,6 +232,14 @@
     "date": "12-22-22"
   },
   {
+    "title": "Rotate Image",
+    "difficulty": "medium",
+    "type": "Matrix",
+    "javascript": false,
+    "python": true,
+    "date": "12-24-22"
+  },
+    {
     "title": "",
     "difficulty": "",
     "type": "",
