@@ -1,6 +1,7 @@
 const { expect } = require("chai");
 const { solveSudoku } = require("../hard");
 
+// effectively the 'Valid Sudoku' problem
 describe("Solve Sudoku", () => {
   // board1: relatively easy puzzle
   const inputBoard = [

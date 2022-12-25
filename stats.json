@@ -111,6 +111,14 @@
     "date": "12-21-22"
   },
   {
+    "title": "Valid Sudoku",
+    "difficulty": "medium",
+    "type": "Matrix",
+    "javascript": true,
+    "python": false,
+    "date": "12-02-22"
+  },
+  {
     "title": "Valid Starting City",
     "difficulty": "medium",
     "type": "Greedy",
@@ -254,7 +262,15 @@
     "python": true,
     "date": "12-24-22"
   },
-    {
+  {
+    "title": "Product of Array Except Self",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "12-25-22"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
