@@ -7,10 +7,10 @@ Repo where I practice algorithms and writing unit tests
 
 ## Progress
 
-<!-- { javascript: 20, python: 16, both: 1 } -->
+<!-- { javascript: 20, python: 17, both: 1 } -->
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
-|Array|4|2|0|6|
+|Array|4|3|0|7|
 |Binary Search|1|0|0|1|
 |Binary Tree|1|0|0|1|
 |Graph|1|0|0|1|
@@ -22,6 +22,6 @@ Repo where I practice algorithms and writing unit tests
 |Recursion|2|0|1|3|
 |Search|1|0|0|1|
 |String|5|2|0|7|
-|Totals|**21**|**15**|**1**|**37**|
+|Totals|**21**|**16**|**1**|**38**|
 
 Detailed records stored in `stats.json`
