@@ -3,6 +3,7 @@ const taskAssignment = require("./taskAssignment");
 const MinHeap = require("./minHeapConstruction");
 const validStartingCity = require("./validStartingCity");
 const searchInSortedMatrix = require("./searchSortedMatrix");
+const maxMatrixQuadrant = require("./maxMatrixQuadrantSum");
 
 module.exports = {
   DoublyLinkedList,
@@ -10,4 +11,5 @@ module.exports = {
   MinHeap,
   validStartingCity,
   searchInSortedMatrix,
+  maxMatrixQuadrant,
 };

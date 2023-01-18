@@ -312,6 +312,14 @@
     "date": "01-03-23"
   },
   {
+    "title": "Max Matrix Quadrant Sum",
+    "difficulty": "medium",
+    "type": "Matrix",
+    "javascript": true,
+    "python": false,
+    "date": "01-18-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",

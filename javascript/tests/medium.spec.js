@@ -6,6 +6,7 @@ const {
   MinHeap,
   validStartingCity,
   searchInSortedMatrix,
+  maxMatrixQuadrant,
 } = require("../medium");
 
 xdescribe("Task Assignment", () => {
@@ -289,7 +290,7 @@ xdescribe("Valid Starting City", () => {
   });
 });
 
-describe("Search Sorted Matrix", () => {
+xdescribe("Search Sorted Matrix", () => {
   it("Returns the correct coordinates of the specified target", () => {
     const matrix = [
       [1, 4, 7, 12, 25],
@@ -302,5 +303,32 @@ describe("Search Sorted Matrix", () => {
     expect(searchInSortedMatrix(matrix, 25)).to.eql([0, 4]);
     expect(searchInSortedMatrix(matrix, 42)).to.eql([3, 4]);
     expect(searchInSortedMatrix(matrix, 51)).to.eql([-1, -1]);
+  });
+});
+
+describe("Max Matrix Quadrant Sum", () => {
+  let example1;
+  let example2;
+  beforeEach(() => {
+    example1 = [
+      [1, 2],
+      [3, 4],
+    ];
+    example2 = [
+      [0, 34, 2, 6], // 9, 34, 7, 21
+      [7, 2, 2, 5],
+      [5, 9, 8, 0],
+      [3, 13, 2, 21],
+    ];
+  });
+
+  it("Returns an integer", () => {
+    expect(isNaN(maxMatrixQuadrant(example1))).to.equal(false);
+    expect(isNaN(maxMatrixQuadrant(example2))).to.equal(false);
+  });
+
+  it("Returns the maximum sum of a quadrant", () => {
+    expect(maxMatrixQuadrant(example1)).to.equal(4);
+    expect(maxMatrixQuadrant(example2)).to.equal(71);
   });
 });
