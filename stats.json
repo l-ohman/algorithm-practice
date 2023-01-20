@@ -336,6 +336,14 @@
     "date": "01-20-23"
   },
   {
+    "title": "Alpha Grid",
+    "difficulty": "easy",
+    "type": "Matrix",
+    "javascript": true,
+    "python": false,
+    "date": "01-20-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
