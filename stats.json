@@ -344,6 +344,14 @@
     "date": "01-20-23"
   },
   {
+    "title": "Truck Tour",
+    "difficulty": "medium",
+    "type": "Greedy",
+    "javascript": true,
+    "python": false,
+    "date": "01-20-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
