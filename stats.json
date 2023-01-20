@@ -48,7 +48,7 @@
     "date": "11-11-22"
   },
   {
-    "title": "Palindrome Check",
+    "title": "Valid Palindrome",
     "difficulty": "easy",
     "type": "String",
     "javascript": true,
@@ -318,6 +318,14 @@
     "javascript": true,
     "python": false,
     "date": "01-18-23"
+  },
+  {
+    "title": "Valid Palindrome II",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": true,
+    "python": false,
+    "date": "01-20-23"
   },
   {
     "title": "",

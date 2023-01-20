@@ -304,7 +304,7 @@ xdescribe("Product Sum", () => {
   });
 });
 
-describe("Find Three Largest Numbers", () => {
+xdescribe("Find Three Largest Numbers", () => {
   let array;
   beforeEach(() => {
     array = [1, 5, 8, 4, 6, 9];
