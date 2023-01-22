@@ -7,7 +7,7 @@ Repo where I practice algorithms and writing unit tests
 
 ## Progress
 
-<!-- { javascript: 26, python: 17, both: 1 } -->
+<!-- { javascript: 27, python: 17, both: 1 } -->
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
 |Array|4|5|0|9|
@@ -21,7 +21,7 @@ Repo where I practice algorithms and writing unit tests
 |Matrix|2|4|0|6|
 |Recursion|2|0|1|3|
 |Search|1|0|0|1|
-|String|6|2|0|8|
-|Totals|**23**|**20**|**1**|**44**|
+|String|6|3|0|9|
+|Totals|**23**|**21**|**1**|**45**|
 
 Detailed records stored in `stats.json`

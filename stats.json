@@ -360,6 +360,14 @@
     "date": "01-22-23"
   },
   {
+    "title": "Simple Text Editor",
+    "difficulty": "medium",
+    "type": "Practical",
+    "javascript": true,
+    "python": false,
+    "date": "01-22-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
@@ -367,5 +375,4 @@
     "python": false,
     "date": "mm-dd-yy"
   }
-  
 ]
