@@ -20,18 +20,24 @@ function tetranacci(m) {
 }
 
 function legoBlocks(n, m) {
-  const sequence = tetranacci(m);
-  for (let i = 0; i < sequence.length; i++) {
-    sequence[i] = sequence[i] ** n % mod;
+  const allWalls = tetranacci(m);
+  for (let i = 0; i < allWalls.length; i++) {
+    allWalls[i] = allWalls[i] ** n % mod;
   }
   // above we get all possible combinations
   // need to filter out combinations that include 'breakable' walls
-  let combinationsToRemove = 0;
-  for (let i = 0; i <= Math.floor(sequence.length / 2); i++) {
-    combinationsToRemove += sequence[i] * sequence[sequence.length - 2 - i];
-    combinationsToRemove % mod;
+
+  const solidWalls = allWalls.slice(0);
+  console.log("solid:", solidWalls);
+  console.log("all:", allWalls);
+  for (let i = 1; i < allWalls.length; i++) {
+    for (let j = 0; j < i; j++) {
+      // removing duplicates from each L/R division
+      solidWalls[i] -= solidWalls[j] * allWalls[i-1-j];
+    }
+    solidWalls[i] % mod;
   }
-  return sequence[sequence.length - 1] - combinationsToRemove;
+  return solidWalls[solidWalls.length - 1];
 }
 
 // console.log(legoBlocks(2, 2)); // 2 2 -> 3
