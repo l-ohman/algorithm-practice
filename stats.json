@@ -440,6 +440,22 @@
     "date": ""
   },
   {
+    "title": "Ascending Binary Sort",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "01-23-23"
+  },
+  {
+    "title": "Almost Equivalent Strings",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "01-23-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
