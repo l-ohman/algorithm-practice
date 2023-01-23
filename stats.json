@@ -376,6 +376,14 @@
     "date": ""
   },
   {
+    "title": "BFS Node Distances",
+    "difficulty": "hard",
+    "type": "Breadth-First Search",
+    "javascript": false,
+    "python": false,
+    "date": ""
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
