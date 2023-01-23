@@ -378,10 +378,18 @@
   {
     "title": "BFS Node Distances",
     "difficulty": "hard",
-    "type": "Breadth-First Search",
+    "type": "Graph",
     "javascript": false,
     "python": false,
     "date": ""
+  },
+  {
+    "title": "Plus Minus Ratio",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "01-23-23"
   },
   {
     "title": "",

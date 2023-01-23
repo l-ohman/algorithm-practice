@@ -1,6 +1,6 @@
 # Algorithm practice
 
-Repo where I practice algorithms and writing unit tests
+Repo where I practice algorithms (and sometimes unit tests)
 
 <!-- note: currently i am not testing for python, as i have not (yet) learned any python testing frameworks. -->
 <!-- todo: display the json data in some online visualization (probably with github pages). -->
