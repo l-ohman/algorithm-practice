@@ -324,7 +324,7 @@
     "difficulty": "easy",
     "type": "String",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "01-20-23"
   },
   {
@@ -413,6 +413,22 @@
     "type": "Recursion",
     "javascript": true,
     "python": false,
+    "date": "01-23-23"
+  },
+  {
+    "title": "Mini-Max Sum",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-23-23"
+  },
+  {
+    "title": "Merge Two Sorted Linked Lists",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
     "date": "01-23-23"
   },
   {
