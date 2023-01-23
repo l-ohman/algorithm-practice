@@ -432,6 +432,14 @@
     "date": "01-23-23"
   },
   {
+    "title": "Sweeten Cookies",
+    "difficulty": "medium",
+    "type": "Heap",
+    "javascript": false,
+    "python": false,
+    "date": ""
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
