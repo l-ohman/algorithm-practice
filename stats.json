@@ -392,6 +392,30 @@
     "date": "01-23-23"
   },
   {
+    "title": "Time Conversion",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": true,
+    "python": false,
+    "date": "01-23-23"
+  },
+  {
+    "title": "Diagonal Difference",
+    "difficulty": "easy",
+    "type": "Matrix",
+    "javascript": true,
+    "python": false,
+    "date": "01-23-23"
+  },
+  {
+    "title": "Recursive Digit Sum",
+    "difficulty": "easy",
+    "type": "Recursion",
+    "javascript": true,
+    "python": false,
+    "date": "01-23-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
