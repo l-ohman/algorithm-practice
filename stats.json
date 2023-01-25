@@ -456,6 +456,22 @@
     "date": "01-23-23"
   },
   {
+    "title": "Lonely Integer",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-25-23"
+  },
+  {
+    "title": "Counting Sort 1",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-25-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
