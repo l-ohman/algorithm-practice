@@ -1,21 +1,22 @@
 # hard, BFS/graph
 # https://www.hackerrank.com/challenges/bfsshortreach/problem
-# currently only passing 50% of test cases (4/8)
+
+from collections import deque
 
 def bfs(n, m, edges, s):
     graph = {}
     for i in range(n):
-        graph[i+1] = []
+        graph[i+1] = set()
     for n1, n2 in edges:
-        graph[n1].append(n2)
-        graph[n2].append(n1)
+        graph[n1].add(n2)
+        graph[n2].add(n1)
     
-    distance_queue = [[s, 0]]
+    distance_queue = deque([(s, 0)])
     nodes_visited = {}
     distances = [-1] * n
     
     while distance_queue:
-        node, dist = distance_queue.pop()
+        node, dist = distance_queue.popleft()
         if node not in nodes_visited:
             nodes_visited[node] = 1
             distances[node-1] = dist
