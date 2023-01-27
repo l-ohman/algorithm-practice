@@ -372,8 +372,8 @@
     "difficulty": "hard",
     "type": "Dynamic Programming",
     "javascript": false,
-    "python": false,
-    "date": ""
+    "python": true,
+    "date": "01-27-23"
   },
   {
     "title": "BFS Node Distances",
