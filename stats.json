@@ -436,8 +436,8 @@
     "difficulty": "medium",
     "type": "Heap",
     "javascript": false,
-    "python": false,
-    "date": ""
+    "python": true,
+    "date": "01-27-23"
   },
   {
     "title": "Ascending Binary Sort",
