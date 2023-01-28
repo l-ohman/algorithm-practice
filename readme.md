@@ -11,8 +11,7 @@ Repo where I practice algorithms (and sometimes unit tests)
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
 |Array|11|5|0|16|
-|Binary Search|1|0|0|1|
-|Binary Tree|1|0|0|1|
+|Binary Tree|2|0|0|2|
 |Dynamic Programming|0|0|1|1|
 |Graph|1|0|1|2|
 |Greedy|3|3|0|6|
