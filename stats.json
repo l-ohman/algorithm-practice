@@ -272,14 +272,6 @@
     "date": "12-25-22"
   },
   {
-    "title": "Find Closest Node to Given Two Nodes",
-    "difficulty": "medium",
-    "type": "Graph",
-    "javascript": false,
-    "python": false,
-    "date": ""
-  },
-  {
     "title": "Top K Frequent Elements",
     "difficulty": "medium",
     "type": "Hash Map",
@@ -486,6 +478,30 @@
     "javascript": false,
     "python": true,
     "date": "01-25-23"
+  },
+  {
+    "title": "Bubble Sort",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-28-23"
+  },
+  {
+    "title": "Insertion Sort",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-28-23"
+  },
+  {
+    "title": "Selection Sort",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-28-23"
   },
   {
     "title": "",
