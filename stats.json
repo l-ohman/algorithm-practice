@@ -504,6 +504,14 @@
     "date": "01-28-23"
   },
   {
+    "title": "Balanced Brackets",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "01-29-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
