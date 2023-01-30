@@ -512,6 +512,30 @@
     "date": "01-29-23"
   },
   {
+    "title": "Node Depths",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "01-30-23"
+  },
+  {
+    "title": "Semordnilaps",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "01-30-23"
+  },
+  {
+    "title": "Tournament Winner",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-30-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
