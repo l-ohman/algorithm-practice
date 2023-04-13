@@ -544,6 +544,22 @@
     "date": "04-09-23"
   },
   {
+    "title": "Palindrome Number I",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "04-13-23"
+  },
+  {
+    "title": "Palindrome Number II",
+    "difficulty": "medium",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "04-13-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
