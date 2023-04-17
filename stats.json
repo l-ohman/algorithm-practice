@@ -560,6 +560,14 @@
     "date": "04-13-23"
   },
   {
+    "title": "Evaluate Expression Tree",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "04-17-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
