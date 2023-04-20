@@ -568,6 +568,14 @@
     "date": "04-17-23"
   },
   {
+    "title": "Power of Two",
+    "difficulty": "easy",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "04-20-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
