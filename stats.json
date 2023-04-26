@@ -576,6 +576,22 @@
     "date": "04-20-23"
   },
   {
+    "title": "Middle Node",
+    "difficulty": "easy",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "04-26-23"
+  },
+  {
+    "title": "Common Characters",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "04-26-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
