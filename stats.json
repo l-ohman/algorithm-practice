@@ -592,6 +592,14 @@
     "date": "04-26-23"
   },
   {
+    "title": "Add Two Numbers",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "04-27-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
