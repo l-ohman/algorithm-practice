@@ -600,6 +600,14 @@
     "date": "04-27-23"
   },
   {
+    "title": "Unique Paths",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "05-01-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
