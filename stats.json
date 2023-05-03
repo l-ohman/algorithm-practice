@@ -608,6 +608,14 @@
     "date": "05-01-23"
   },
   {
+    "title": "Perfect Squares",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "05-03-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
