@@ -616,6 +616,22 @@
     "date": "05-03-23"
   },
   {
+    "title": "Ugly Number I",
+    "difficulty": "easy",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "05-04-23"
+  },
+  {
+    "title": "Ugly Number II",
+    "difficulty": "medium",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "05-04-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
