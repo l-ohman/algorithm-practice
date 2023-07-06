@@ -4,7 +4,7 @@
     "difficulty": "easy",
     "type": "Array",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "11-08-22"
   },
   {
@@ -20,7 +20,7 @@
     "difficulty": "easy",
     "type": "Binary Tree",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "11-11-22"
   },
   {
@@ -28,7 +28,7 @@
     "difficulty": "easy",
     "type": "Binary Search",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "11-11-22"
   },
   {
@@ -662,6 +662,14 @@
     "javascript": false,
     "python": true,
     "date": "05-26-23"
+  },
+  {
+    "title": "Transpose Matrix",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-06-23"
   },
   {
     "title": "",

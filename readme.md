@@ -1,16 +1,15 @@
 # Algorithm practice
 
-Repo where I practice algorithms <!--(and sometimes unit tests) -->
+Repo where I practice algorithms
 
-<!-- note: currently i am not testing for python, as i have not yet learned any python testing frameworks. -->
 <!-- todo: display the json data in some online visualization. -->
 
 ## Progress
 
-<!-- { javascript: 31, python: 50, both: 2 } -->
+<!-- { javascript: 28, python: 51, both: 5 } -->
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
-|Array|13|5|0|18|
+|Array|14|5|0|19|
 |Binary Tree|4|0|0|4|
 |Dynamic Programming|0|2|1|3|
 |Graph|1|0|1|2|
@@ -24,6 +23,6 @@ Repo where I practice algorithms <!--(and sometimes unit tests) -->
 |Recursion|3|0|1|4|
 |Search|1|0|0|1|
 |String|10|3|0|13|
-|Totals|**47**|**33**|**3**|**83**|
+|Totals|**48**|**33**|**3**|**84**|
 
 Detailed records stored in `stats.json`
