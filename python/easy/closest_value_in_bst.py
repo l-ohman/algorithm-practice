@@ -13,3 +13,16 @@ def findClosestValueInBst(tree, target):
     value2 = findClosestValueInBst(tree.right, target)
     closer = value1 if distance(value1, target) < distance(value2, target) else value2
     return closer if distance(closer, target) < distance(tree.value, target) else tree.value
+
+# more efficient solution
+def findClosestValueInBst2(tree, target):
+    node = tree
+    closest = float("inf")
+    while (node is not None):
+        if node.value == target: return node.value
+        closest = node.value if abs(target - node.value) < abs(target - closest) else closest
+        if (node.value < target):
+            node = node.right
+        else:
+            node = node.left
+    return closest
