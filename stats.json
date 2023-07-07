@@ -672,11 +672,59 @@
     "date": "07-06-23"
   },
   {
+    "title": "Merge Sorted Array",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Remove Element",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Remove Duplicates From Sorted Array",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Remove Duplicates From Sorted Array II",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Ransom Note",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Game Of Life",
+    "difficulty": "medium",
+    "type": "Matrix",
+    "javascript": false,
+    "python": true,
+    "date": "07-07-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
     "javascript": false,
     "python": false,
-    "date": "mm-dd-yy"
+    "date": "07-07-23"
   }
 ]

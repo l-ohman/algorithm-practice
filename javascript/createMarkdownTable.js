@@ -27,9 +27,11 @@ function restructureData(stats) {
 
     if (stats[i].javascript && stats[i].python) {
       languageTotals.both += 1;
-    } else if (stats[i].javascript) {
+    }
+    if (stats[i].javascript) {
       languageTotals.javascript += 1;
-    } else {
+    }
+    if (stats[i].python) {
       languageTotals.python += 1;
     }
   }
