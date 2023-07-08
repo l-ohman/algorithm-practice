@@ -720,11 +720,43 @@
     "date": "07-07-23"
   },
   {
+    "title": "Majority Element",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": false,
+    "date": "07-07-23"
+  },
+  {
+    "title": "Rotate Array",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-08-23"
+  },
+  {
+    "title": "Reverse Words In A String",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "07-08-23"
+  },
+  {
+    "title": "Strong Password Checker",
+    "difficulty": "hard",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "07-08-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
     "javascript": false,
     "python": false,
-    "date": "07-07-23"
+    "date": "mm-dd-yy"
   }
 ]
