@@ -832,6 +832,22 @@
     "date": "07-11-23"
   },
   {
+    "title": "Breadth First Search",
+    "difficulty": "medium",
+    "type": "Binary Search",
+    "javascript": false,
+    "python": true,
+    "date": "07-12-23"
+  },
+  {
+    "title": "Sort Stack",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-12-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
