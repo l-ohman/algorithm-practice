@@ -267,7 +267,7 @@
     "title": "Product of Array Except Self",
     "difficulty": "medium",
     "type": "Array",
-    "javascript": false,
+    "javascript": true,
     "python": true,
     "date": "12-25-22"
   },
@@ -848,10 +848,170 @@
     "date": "07-12-23"
   },
   {
+    "title": "Merge Strings Alternatively",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "08-07-23"
+  },
+  {
+    "title": "Greatest Common Divisor of Strings",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "08-07-23"
+  },
+  {
+    "title": "Kids With the Greatest Number of Candies",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "08-08-23"
+  },
+  {
+    "title": "Can Place Flowers",
+    "difficulty": "easy",
+    "type": "Greedy",
+    "javascript": false,
+    "python": true,
+    "date": "08-08-23"
+  },
+  {
+    "title": "Reverse Vowels in a String",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "08-08-23"
+  },
+  {
+    "title": "Increasing Triplet Subsequence",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-09-23"
+  },
+  {
+    "title": "Move Zeroes",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-09-23"
+  },
+  {
+    "title": "Is Subsequence",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": true,
+    "python": false,
+    "date": "08-09-23"
+  },
+  {
+    "title": "Find the Difference of Two Arrays",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Unique Number of Occurrences",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Number of Recent Calls",
+    "difficulty": "easy",
+    "type": "Other",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Reverse Linked List",
+    "difficulty": "easy",
+    "type": "Linked List",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "N-th Tribonacci Number",
+    "difficulty": "easy",
+    "type": "Dynamic Programming",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "String Compression",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Maximum Average Subarray I",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Find the Highest Altitude",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Maximum Number of Vowels in a Substring of Given Length",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Find Pivot Index",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Dota2 Senate",
+    "difficulty": "medium",
+    "type": "Greedy",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
+    "title": "Leaf-Similar Trees",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": true,
+    "python": false,
+    "date": "08-10-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
-    "javascript": false,
+    "javascript": true,
     "python": false,
     "date": "mm-dd-yy"
   }
