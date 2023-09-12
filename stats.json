@@ -1048,6 +1048,14 @@
     "date": "09-12-23"
   },
   {
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "hard",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "09-12-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
