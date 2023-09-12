@@ -1008,10 +1008,26 @@
     "date": "08-10-23"
   },
   {
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "09-12-23"
+  },
+  {
+    "title": "Count Good Nodes in Binary Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "mm-dd-yy"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
-    "javascript": true,
+    "javascript": false,
     "python": false,
     "date": "mm-dd-yy"
   }
