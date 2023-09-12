@@ -1040,6 +1040,14 @@
     "date": "09-12-23"
   },
   {
+    "title": "Maximum Level Sum of a Binary Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "09-12-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
