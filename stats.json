@@ -1021,7 +1021,15 @@
     "type": "Binary Tree",
     "javascript": false,
     "python": true,
-    "date": "mm-dd-yy"
+    "date": "09-12-23"
+  },
+  {
+    "title": "Lowest Common Ancestor of a Binary Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "09-12-23"
   },
   {
     "title": "",
