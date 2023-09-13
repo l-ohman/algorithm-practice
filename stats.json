@@ -1056,6 +1056,14 @@
     "date": "09-12-23"
   },
   {
+    "title": "Candy Distribution",
+    "difficulty": "hard",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "09-13-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
