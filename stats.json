@@ -1064,6 +1064,14 @@
     "date": "09-13-23"
   },
   {
+    "title": "Min Cost to Connect All Points",
+    "difficulty": "medium",
+    "type": "Graph",
+    "javascript": false,
+    "python": true,
+    "date": "09-15-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
