@@ -26,7 +26,7 @@
   {
     "title": "Closest Value in BST",
     "difficulty": "easy",
-    "type": "Binary Search",
+    "type": "Binary Tree",
     "javascript": true,
     "python": true,
     "date": "11-11-22"
@@ -192,7 +192,7 @@
     "date": "12-11-22"
   },
   {
-    "title": "Array Binary Search",
+    "title": "Array Binary Tree",
     "difficulty": "easy",
     "type": "Array",
     "javascript": false,
@@ -834,7 +834,7 @@
   {
     "title": "Breadth First Search",
     "difficulty": "medium",
-    "type": "Binary Search",
+    "type": "Binary Tree",
     "javascript": false,
     "python": true,
     "date": "07-12-23"
@@ -1078,6 +1078,38 @@
     "javascript": false,
     "python": true,
     "date": "09-15-23"
+  },
+  {
+    "title": "Last Stone Weight",
+    "difficulty": "easy",
+    "type": "Heap",
+    "javascript": false,
+    "python": true,
+    "date": "09-16-23"
+  },
+  {
+    "title": "Min Cost Climbing Stairs",
+    "difficulty": "easy",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "09-18-23"
+  },
+  {
+    "title": "Search in a Binary Tree tree",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "09-18-23"
+  },
+  {
+    "title": "Delete Node in a BST",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "09-18-23"
   },
   {
     "title": "",
