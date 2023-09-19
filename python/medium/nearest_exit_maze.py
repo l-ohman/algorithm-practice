@@ -24,8 +24,6 @@ class Solution:
             # add valid moves to queue
             moves = self.validMoves(maze, x, y)
             for y, x in moves:
-                if maze[y][x] == "+":
-                    continue
                 queue.append((dist+1, [y, x]))
         return -1
 

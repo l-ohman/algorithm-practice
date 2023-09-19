@@ -1120,6 +1120,14 @@
     "date": "09-18-23"
   },
   {
+    "title": "Rotting Oranges",
+    "difficulty": "medium",
+    "type": "Graph",
+    "javascript": false,
+    "python": true,
+    "date": "09-19-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
