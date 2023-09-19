@@ -1128,11 +1128,35 @@
     "date": "09-19-23"
   },
   {
+    "title": "Kth Largest Element in an Array",
+    "difficulty": "medium",
+    "type": "Heap",
+    "javascript": false,
+    "python": true,
+    "date": "09-19-23"
+  },
+  {
+    "title": "Smallest Number in Infinite Set",
+    "difficulty": "medium",
+    "type": "Heap",
+    "javascript": false,
+    "python": true,
+    "date": "09-19-23"
+  },
+  {
+    "title": "Max Number of K-Sum Pairs",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "09-19-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
     "javascript": false,
     "python": false,
-    "date": "mm-dd-yy"
+    "date": "09-19-23"
   }
 ]
