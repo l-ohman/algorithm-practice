@@ -724,7 +724,7 @@
     "difficulty": "easy",
     "type": "Array",
     "javascript": false,
-    "python": false,
+    "python": true,
     "date": "07-07-23"
   },
   {
@@ -1157,6 +1157,78 @@
     "type": "Array",
     "javascript": false,
     "python": true,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Recyclable and Low Fat Products",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Find Customer Referee",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Big Countries",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Article Views I",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Invalid Tweets",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Replace Employee ID With Unique ID",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Product Sales Analysis I",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Custom Who Visited but Did Not Make Any Transactions",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
+    "date": "09-20-23"
+  },
+  {
+    "title": "Rising Temperature",
+    "difficulty": "easy",
+    "type": "SQL",
+    "javascript": false,
+    "python": false,
     "date": "09-20-23"
   },
   {
