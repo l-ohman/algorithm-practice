@@ -1232,6 +1232,30 @@
     "date": "09-20-23"
   },
   {
+    "title": "Maximum Bags With Full Capacity of Rocks",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "09-22-23"
+  },
+  {
+    "title": "Delete the Middle Node of a Linked List",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "10-02-23"
+  },
+  {
+    "title": "Maximum Twin Sum of a Linked List",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "10-02-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
