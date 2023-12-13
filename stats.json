@@ -1256,6 +1256,22 @@
     "date": "10-02-23"
   },
   {
+    "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "10-02-23"
+  },
+  {
+    "title": "Two Sum",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "12-13-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
