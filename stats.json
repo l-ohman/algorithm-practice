@@ -1280,6 +1280,14 @@
     "date": "12-14-23"
   },
   {
+    "title": "Minimum Operations to Convert Time",
+    "difficulty": "easy",
+    "type": "Greedy",
+    "javascript": false,
+    "python": true,
+    "date": "12-14-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
