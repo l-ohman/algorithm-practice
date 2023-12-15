@@ -1304,6 +1304,14 @@
     "date": "12-15-23"
   },
   {
+    "title": "Difference Between Ones and Zeros in Row and Column",
+    "difficulty": "medium",
+    "type": "Matrix",
+    "javascript": false,
+    "python": true,
+    "date": "12-15-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
