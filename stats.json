@@ -1296,6 +1296,14 @@
     "date": "12-15-23"
   },
   {
+    "title": "Destination City",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "12-15-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
