@@ -1312,6 +1312,14 @@
     "date": "12-15-23"
   },
   {
+    "title": "Jump Game II",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "12-15-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
