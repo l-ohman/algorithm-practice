@@ -1288,6 +1288,14 @@
     "date": "12-14-23"
   },
   {
+    "title": "Max Pair Sum in an Array",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "12-15-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
