@@ -11,7 +11,6 @@ Repo where I practice DSA.
 
 |                     | Easy   | Medium | Hard  | Total   |
 | ------------------- | ------ | ------ | ----- | ------- |
-|                     | 0      | 0      | 0     | 0       |
 | Array               | 28     | 16     | 2     | 46      |
 | Binary Tree         | 8      | 9      | 0     | 17      |
 | Dynamic Programming | 2      | 3      | 1     | 6       |

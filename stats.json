@@ -1320,6 +1320,14 @@
     "date": "12-15-23"
   },
   {
+    "title": "Same Tree",
+    "difficulty": "easy",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "12-18-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
