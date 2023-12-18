@@ -1350,5 +1350,13 @@
     "javascript": false,
     "python": true,
     "date": "12-18-23"
+  },
+  {
+    "title": "Longest ZigZag Path in a Binary Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "12-18-23"
   }
 ]
