@@ -1336,11 +1336,11 @@
     "date": "12-18-23"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Path Sum III",
+    "difficulty": "medium",
+    "type": "Binary Tree",
     "javascript": false,
-    "python": false,
-    "date": "mm-dd-yy"
+    "python": true,
+    "date": "12-18-23"
   }
 ]
