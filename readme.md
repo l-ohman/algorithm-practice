@@ -7,7 +7,7 @@ Repo where I practice DSA.
 
 ## Progress
 
-<!-- { javascript: 49, python: 118, both: 6 } -->
+<!-- { javascript: 49, python: 120, both: 6 } -->
 
 |                     | Easy   | Medium | Hard  | Total   |
 | ------------------- | ------ | ------ | ----- | ------- |
@@ -20,12 +20,12 @@ Repo where I practice DSA.
 | Heap                | 1      | 4      | 0     | 5       |
 | Linked List         | 3      | 7      | 0     | 10      |
 | Math                | 3      | 4      | 0     | 7       |
-| Matrix              | 3      | 6      | 0     | 9       |
+| Matrix              | 4      | 6      | 0     | 10      |
 | Other               | 2      | 2      | 0     | 4       |
 | Recursion           | 3      | 0      | 1     | 4       |
 | SQL                 | 9      | 0      | 0     | 9       |
 | Search              | 1      | 0      | 0     | 1       |
-| String              | 14     | 6      | 1     | 21      |
-| Totals              | **90** | **74** | **6** | **170** |
+| String              | 14     | 7      | 1     | 22      |
+| Totals              | **91** | **75** | **6** | **172** |
 
 Detailed records stored in `stats.json`
