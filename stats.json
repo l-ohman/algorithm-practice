@@ -1368,9 +1368,9 @@
     "date": "12-19-23"
   },
   {
-    "title": "",
+    "title": "Zigzag Conversion",
     "difficulty": "medium",
-    "type": "",
+    "type": "String",
     "javascript": false,
     "python": true,
     "date": "12-19-23"
