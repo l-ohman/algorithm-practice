@@ -1374,5 +1374,13 @@
     "javascript": false,
     "python": true,
     "date": "12-19-23"
+  },
+  {
+    "title": "Buy Two Chocolates",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "12-20-23"
   }
 ]
