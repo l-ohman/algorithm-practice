@@ -1382,5 +1382,21 @@
     "javascript": false,
     "python": true,
     "date": "12-20-23"
+  },
+  {
+    "title": "Letter Combinations of a Phone Number",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "12-20-23"
+  },
+  {
+    "title": "",
+    "difficulty": "medium",
+    "type": "",
+    "javascript": false,
+    "python": true,
+    "date": "12-20-23"
   }
 ]
