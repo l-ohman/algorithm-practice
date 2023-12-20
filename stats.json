@@ -1392,6 +1392,14 @@
     "date": "12-20-23"
   },
   {
+    "title": "Generate Parentheses",
+    "difficulty": "medium",
+    "type": "",
+    "javascript": false,
+    "python": true,
+    "date": "12-20-23"
+  },
+  {
     "title": "",
     "difficulty": "medium",
     "type": "",
