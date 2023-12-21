@@ -1449,10 +1449,10 @@
   },
   {
     "title": "",
-    "difficulty": "medium",
+    "difficulty": "",
     "type": "",
     "javascript": false,
-    "python": true,
-    "date": "12-21-23"
+    "python": false,
+    "date": ""
   }
 ]

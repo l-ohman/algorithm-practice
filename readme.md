@@ -7,17 +7,17 @@ Repo where I practice DSA.
 
 ## Progress
 
-<!-- { javascript: 49, python: 120, both: 6 } -->
+<!-- { javascript: 49, python: 129, both: 6 } -->
 
 |                     | Easy   | Medium | Hard  | Total   |
 | ------------------- | ------ | ------ | ----- | ------- |
-| Array               | 28     | 17     | 2     | 47      |
-| Binary Tree         | 10     | 11     | 0     | 21      |
-| Dynamic Programming | 2      | 3      | 1     | 6       |
+| Array               | 29     | 18     | 2     | 49      |
+| Binary Tree         | 10     | 12     | 1     | 23      |
+| Dynamic Programming | 2      | 5      | 1     | 8       |
 | Graph               | 1      | 4      | 1     | 6       |
 | Greedy              | 5      | 5      | 0     | 10      |
 | Hash Map            | 5      | 5      | 0     | 10      |
-| Heap                | 1      | 4      | 0     | 5       |
+| Heap                | 1      | 6      | 0     | 7       |
 | Linked List         | 3      | 7      | 0     | 10      |
 | Math                | 3      | 4      | 0     | 7       |
 | Matrix              | 4      | 6      | 0     | 10      |
@@ -25,7 +25,7 @@ Repo where I practice DSA.
 | Recursion           | 3      | 0      | 1     | 4       |
 | SQL                 | 9      | 0      | 0     | 9       |
 | Search              | 1      | 0      | 0     | 1       |
-| String              | 14     | 7      | 1     | 22      |
-| Totals              | **91** | **75** | **6** | **172** |
+| String              | 14     | 8      | 1     | 23      |
+| Totals              | **92** | **82** | **7** | **181** |
 
 Detailed records stored in `stats.json`
