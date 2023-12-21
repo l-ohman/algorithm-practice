@@ -16,7 +16,7 @@ function restructureData(stats) {
   };
 
   for (let i = 0; i < stats.length; i++) {
-    // if (!stats[i].javascript && !stats[i].python) continue;
+    if (stats[i].title === "") continue;
     if (stats[i].type.slice(0, 6) === "Binary") stats[i].type = "Binary Tree";
     if (!tableData[stats[i].type]) {
       tableData[stats[i].type] = { ...defaultStruct };

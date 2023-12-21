@@ -1448,6 +1448,22 @@
     "date": "12-21-23"
   },
   {
+    "title": "Longest Even Word",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "12-21-23"
+  },
+  {
+    "title": "Lottery Tickets",
+    "difficulty": "medium",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "12-21-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
