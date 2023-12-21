@@ -1424,11 +1424,19 @@
     "date": "12-20-23"
   },
   {
+    "title": "Non-Divisible Subset",
+    "difficulty": "medium",
+    "type": "",
+    "javascript": false,
+    "python": true,
+    "date": "12-21-23"
+  },
+  {
     "title": "",
     "difficulty": "medium",
     "type": "",
     "javascript": false,
     "python": true,
-    "date": "12-20-23"
+    "date": "12-21-23"
   }
 ]
