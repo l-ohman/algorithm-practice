@@ -1464,6 +1464,14 @@
     "date": "12-21-23"
   },
   {
+    "title": "Insert Delete GetRandom O(1)",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-16-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
