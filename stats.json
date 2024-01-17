@@ -924,7 +924,7 @@
     "difficulty": "easy",
     "type": "Array",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "08-10-23"
   },
   {
@@ -1470,6 +1470,14 @@
     "javascript": false,
     "python": true,
     "date": "01-16-24"
+  },
+  {
+    "title": "",
+    "difficulty": "",
+    "type": "",
+    "javascript": false,
+    "python": false,
+    "date": "01-17-24"
   },
   {
     "title": "",
