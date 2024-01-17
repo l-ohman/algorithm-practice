@@ -1472,11 +1472,11 @@
     "date": "01-16-24"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Find Players With Zero or One Losses",
+    "difficulty": "medium",
+    "type": "Hash Map",
     "javascript": false,
-    "python": false,
+    "python": true,
     "date": "01-17-24"
   },
   {
