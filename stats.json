@@ -1480,6 +1480,14 @@
     "date": "01-17-24"
   },
   {
+    "title": "Climbing Stairs",
+    "difficulty": "easy",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "01-18-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
