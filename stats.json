@@ -1488,6 +1488,14 @@
     "date": "01-18-24"
   },
   {
+    "title": "Minimum Falling Path Sum",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "01-19-23"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
