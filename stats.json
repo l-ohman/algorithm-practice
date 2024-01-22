@@ -1493,7 +1493,15 @@
     "type": "Dynamic Programming",
     "javascript": false,
     "python": true,
-    "date": "01-19-23"
+    "date": "01-19-24"
+  },
+  {
+    "title": "Set Mismatch",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-22-24"
   },
   {
     "title": "",
