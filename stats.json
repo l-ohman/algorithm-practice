@@ -1504,6 +1504,14 @@
     "date": "01-22-24"
   },
   {
+    "title": "Maximum Length of a Concatenated String with Unique Characters",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "01-23-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
