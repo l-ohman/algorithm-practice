@@ -1520,12 +1520,12 @@
     "date": "01-24-24"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Pseudo-Palindromic Paths in a Binary Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
     "javascript": false,
-    "python": false,
-    "date": ""
+    "python": true,
+    "date": "01-24-24"
   },
   {
     "title": "",
