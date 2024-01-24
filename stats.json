@@ -1512,6 +1512,22 @@
     "date": "01-23-24"
   },
   {
+    "title": "Decompress Run-Length Encoded List",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "01-24-24"
+  },
+  {
+    "title": "",
+    "difficulty": "",
+    "type": "",
+    "javascript": false,
+    "python": false,
+    "date": ""
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
