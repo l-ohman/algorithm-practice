@@ -1533,7 +1533,15 @@
     "type": "Array",
     "javascript": false,
     "python": true,
-    "date": "01-29-23"
+    "date": "01-29-24"
+  },
+  {
+    "title": "Removing Stars From a String",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": false,
+    "date": "01-29-24"
   },
   {
     "title": "",
