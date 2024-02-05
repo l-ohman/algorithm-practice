@@ -1568,11 +1568,11 @@
     "date": "02-05-24"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Sequential Digits",
+    "difficulty": "medium",
+    "type": "Other",
     "javascript": false,
-    "python": false,
+    "python": true,
     "date": "02-05-24"
   },
   {
