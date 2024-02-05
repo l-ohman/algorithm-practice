@@ -1560,6 +1560,22 @@
     "date": "02-01-24"
   },
   {
+    "title": "First Unique Character in a String",
+    "difficulty": "easy",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "02-05-24"
+  },
+  {
+    "title": "",
+    "difficulty": "",
+    "type": "",
+    "javascript": false,
+    "python": false,
+    "date": "02-05-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
