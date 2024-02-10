@@ -1584,6 +1584,14 @@
     "date": "02-07-24"
   },
   {
+    "title": "Palindromic Substrings",
+    "difficulty": "medium",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "02-10-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
