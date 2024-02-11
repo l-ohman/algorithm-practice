@@ -1592,6 +1592,14 @@
     "date": "02-10-24"
   },
   {
+    "title": "Cherry Pickup II",
+    "difficulty": "hard",
+    "type": "Dynamic Programming",
+    "javascript": false,
+    "python": true,
+    "date": "02-11-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
