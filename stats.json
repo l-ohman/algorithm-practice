@@ -1600,6 +1600,14 @@
     "date": "02-11-24"
   },
   {
+    "title": "Find First Palindromic String in the Array",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "02-13-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
