@@ -1,2 +1,2 @@
 table:
-	cd ./javascript && npm run table && cd ..
+	python3 table.py

@@ -1,3 +1,4 @@
+// ** Deprecated, now using `table.py` in root dir
 const stats = require("../stats.json");
 
 function restructureData(stats) {
