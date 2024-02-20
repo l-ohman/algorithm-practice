@@ -1720,11 +1720,11 @@
     "date": "02-20-24"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Find the Index of the First Occurrence in a String",
+    "difficulty": "easy",
+    "type": "String",
     "javascript": false,
-    "python": false,
+    "python": true,
     "date": "02-20-24"
   },
   {
