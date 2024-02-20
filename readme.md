@@ -8,11 +8,11 @@ Repo where I practice DSA.
 ## Progress
 
 <!-- scriptdivider -->
-<!-- {'python': 159, 'javascript': 49, 'both': 7} -->
+<!-- {'python': 160, 'javascript': 49, 'both': 7} -->
 
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|
-|Array|32|23|3|58|
+|Array|33|23|3|59|
 |Binary Tree|10|13|1|24|
 |Dynamic Programming|3|9|2|14|
 |Graph|1|4|1|6|
@@ -27,7 +27,7 @@ Repo where I practice DSA.
 |SQL|9|0|0|9|
 |Search|1|0|0|1|
 |String|16|9|2|27|
-|Totals|**99**|**99**|**12**|**210**|
+|Totals|**100**|**99**|**12**|**211**|
 <!-- scriptdivider -->
 
 Detailed records stored in `stats.json`

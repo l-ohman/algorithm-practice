@@ -1680,6 +1680,14 @@
     "date": "02-19-24"
   },
   {
+    "title": "Missing Number",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "02-20-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
