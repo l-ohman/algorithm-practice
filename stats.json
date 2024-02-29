@@ -1768,6 +1768,14 @@
     "date": "02-28-24"
   },
   {
+    "title": "Even Odd Tree",
+    "difficulty": "medium",
+    "type": "Binary Tree",
+    "javascript": false,
+    "python": true,
+    "date": "02-29-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
