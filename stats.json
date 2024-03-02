@@ -1784,6 +1784,14 @@
     "date": "03-01-24"
   },
   {
+    "title": "Squares of a Sorted Array",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-02-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
