@@ -1776,6 +1776,14 @@
     "date": "02-29-24"
   },
   {
+    "title": "Maximum Odd Binary Number",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "03-01-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
