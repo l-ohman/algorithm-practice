@@ -1792,6 +1792,14 @@
     "date": "03-02-24"
   },
   {
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "03-03-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
