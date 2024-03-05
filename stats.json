@@ -1808,6 +1808,14 @@
     "date": "03-04-24"
   },
   {
+    "title": "Minimum Length of String After Deleting Similar Ends",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "03-05-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
