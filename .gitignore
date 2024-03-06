@@ -1,1 +1,4 @@
+# testing lib, etc
 node_modules
+# asdf for python version
+.tool-versions
