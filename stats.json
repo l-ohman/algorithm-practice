@@ -1832,6 +1832,14 @@
     "date": "03-07-24"
   },
   {
+    "title": "Count Elements With Maximum Frequency",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-08-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
