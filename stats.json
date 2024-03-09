@@ -1840,6 +1840,14 @@
     "date": "03-08-24"
   },
   {
+    "title": "Minimum Common Values",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-09-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
