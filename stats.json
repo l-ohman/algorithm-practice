@@ -1848,6 +1848,22 @@
     "date": "03-09-24"
   },
   {
+    "title": "Intersection of Two Arrays",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-10-24"
+  },
+  {
+    "title": "Custom Sort String",
+    "difficulty": "medium",
+    "type": "Hash Map",
+    "javascript": false,
+    "python": true,
+    "date": "03-11-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
