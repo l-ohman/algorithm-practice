@@ -1880,6 +1880,22 @@
     "date": "03-13-24"
   },
   {
+    "title": "Binary Subarrays With Sum",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-14-24"
+  },
+  {
+    "title": "",
+    "difficulty": "",
+    "type": "",
+    "javascript": false,
+    "python": false,
+    "date": ""
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
