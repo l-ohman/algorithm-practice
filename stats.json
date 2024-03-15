@@ -1888,12 +1888,12 @@
     "date": "03-14-24"
   },
   {
-    "title": "",
-    "difficulty": "",
-    "type": "",
+    "title": "Decode String",
+    "difficulty": "medium",
+    "type": "String",
     "javascript": false,
-    "python": false,
-    "date": ""
+    "python": true,
+    "date": "03-14-24"
   },
   {
     "title": "",
