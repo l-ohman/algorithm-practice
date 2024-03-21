@@ -8,7 +8,7 @@ Repo where I practice DSA.
 ## Progress
 
 <!-- scriptdivider -->
-<!-- {'python': 187, 'javascript': 49, 'both': 7} -->
+<!-- {'python': 188, 'javascript': 49, 'both': 8} -->
 
 | |Easy|Medium|Hard|Total|
 |-|-|-|-|-|

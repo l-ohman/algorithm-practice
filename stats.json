@@ -940,7 +940,7 @@
     "difficulty": "easy",
     "type": "Linked List",
     "javascript": true,
-    "python": false,
+    "python": true,
     "date": "08-10-23"
   },
   {
