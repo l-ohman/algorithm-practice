@@ -1904,6 +1904,14 @@
     "date": "03-20-24"
   },
   {
+    "title": "Palindrome Linked List",
+    "difficulty": "easy",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "03-22-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
