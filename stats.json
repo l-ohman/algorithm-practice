@@ -1912,6 +1912,14 @@
     "date": "03-22-24"
   },
   {
+    "title": "Reorder List",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "03-23-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
