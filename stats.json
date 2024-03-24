@@ -1920,6 +1920,14 @@
     "date": "03-23-24"
   },
   {
+    "title": "Find the Duplicate Number",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-24-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
