@@ -1928,6 +1928,14 @@
     "date": "03-24-24"
   },
   {
+    "title": "Find All Duplicates in an Array",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "03-25-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
