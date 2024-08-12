@@ -1952,6 +1952,110 @@
     "date": "03-27-24"
   },
   {
+    "title": "Find the Maximum Divisibility Score",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Minimum Cuts to Divide a Circle",
+    "difficulty": "easy",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Count Equal and Divisible Pairs in an Array",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Search Insert Position",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Length of Last Word",
+    "difficulty": "easy",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Plus One",
+    "difficulty": "easy",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Sqrt(x)",
+    "difficulty": "easy",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "07-22-24"
+  },
+  {
+    "title": "Remove Duplicates from Sorted List",
+    "difficulty": "easy",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "07-23-24"
+  },
+  {
+    "title": "Reverse Integer",
+    "difficulty": "medium",
+    "type": "Math",
+    "javascript": false,
+    "python": true,
+    "date": "07-23-24"
+  },
+  {
+    "title": "String to Integer (atoi)",
+    "difficulty": "medium",
+    "type": "String",
+    "javascript": false,
+    "python": true,
+    "date": "07-23-24"
+  },
+  {
+    "title": "3Sum Closest",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "07-24-24"
+  },
+  {
+    "title": "4Sum",
+    "difficulty": "medium",
+    "type": "Array",
+    "javascript": false,
+    "python": true,
+    "date": "08-06-24"
+  },
+  {
+    "title": "Swap Nodes in Pairs",
+    "difficulty": "medium",
+    "type": "Linked List",
+    "javascript": false,
+    "python": true,
+    "date": "08-12-24"
+  },
+  {
     "title": "",
     "difficulty": "",
     "type": "",
